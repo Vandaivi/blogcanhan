@@ -1,0 +1,1200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Blog lập trình</title>
+    <link href="https://github.com/vandaivi/blog.git/feed.xml" rel="self" />
+    <link href="https://github.com/vandaivi/blog.git" />
+    <updated>2024-12-29T18:19:39+07:00</updated>
+    <author>
+        <name>vandaivi</name>
+    </author>
+    <id>https://github.com/vandaivi/blog.git</id>
+
+    <entry>
+        <title>Làm Thế Nào Để Học Java</title>
+        <author>
+            <name>vandaivi</name>
+        </author>
+        <link href="https://github.com/vandaivi/blog.git/lam-the-nao-de-hoc-java.html"/>
+        <id>https://github.com/vandaivi/blog.git/lam-the-nao-de-hoc-java.html</id>
+        <media:content url="https://github.com/vandaivi/blog.git/media/posts/15/hoc-lap-trinh-java-core-danh-cho-nguoi-moi-bat-dau-2019.jpg" medium="image" />
+
+        <updated>2024-12-29T18:19:39+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://github.com/vandaivi/blog.git/media/posts/15/hoc-lap-trinh-java-core-danh-cho-nguoi-moi-bat-dau-2019.jpg" alt="" />
+                    Java là một ngôn ngữ lý tưởng cho người mới bắt đầu học lập trình. Với cú pháp rõ ràng&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://github.com/vandaivi/blog.git/media/posts/15/hoc-lap-trinh-java-core-danh-cho-nguoi-moi-bat-dau-2019.jpg" class="type:primaryImage" alt="" /></p>
+                <h3> </h3>
+<p>Java là một ngôn ngữ lý tưởng cho người mới bắt đầu học lập trình. Với cú pháp rõ ràng và khả năng chạy trên nhiều nền tảng khác nhau, Java mang đến một môi trường học tập ổn định và dễ tiếp cận. Để bắt đầu học Java, bạn có thể làm theo các bước sau:</p>
+<h4><strong>1. Cài đặt Java Development Kit (JDK)</strong></h4>
+<p>Để bắt đầu lập trình với Java, bước đầu tiên bạn cần làm là cài đặt <strong>Java Development Kit (JDK)</strong>. JDK cung cấp các công cụ cần thiết để biên dịch và chạy các chương trình Java trên máy tính của bạn. Bạn có thể tải JDK từ trang web chính thức của Oracle hoặc các nguồn khác.</p>
+<p>Sau khi cài đặt JDK, bạn sẽ có các công cụ sau:</p>
+<ul>
+<li><strong>javac</strong>: Công cụ biên dịch mã nguồn Java.</li>
+<li><strong>java</strong>: Công cụ thực thi mã Java đã biên dịch.</li>
+<li><strong>Javadoc</strong>: Công cụ tạo tài liệu API từ mã nguồn Java.</li>
+</ul>
+<h4><strong>2. Cài đặt một IDE (Integrated Development Environment)</strong></h4>
+<p>Mặc dù bạn có thể lập trình Java trong bất kỳ trình soạn thảo văn bản nào, nhưng sử dụng một <strong>IDE</strong> sẽ giúp công việc lập trình trở nên dễ dàng hơn. Một số IDE phổ biến cho Java là:</p>
+<ul>
+<li><strong>Eclipse</strong>: Một IDE miễn phí, mạnh mẽ, hỗ trợ phát triển Java và các ngôn ngữ khác.</li>
+<li><strong>IntelliJ IDEA</strong>: Một IDE được ưa chuộng trong cộng đồng lập trình viên Java với nhiều tính năng hỗ trợ thông minh.</li>
+<li><strong>NetBeans</strong>: IDE dễ sử dụng, miễn phí và hỗ trợ phát triển Java rất tốt.</li>
+</ul>
+<p>Cài đặt một IDE sẽ giúp bạn kiểm tra mã ngay lập tức, gợi ý cú pháp, và hỗ trợ gỡ lỗi.</p>
+<h4><strong>3. Tạo các chương trình "Hello World" đơn giản</strong></h4>
+<p>Khi bạn đã cài đặt xong JDK và IDE, hãy bắt đầu với một chương trình đơn giản nhất: <strong>Hello World</strong>. Đây là cách tuyệt vời để kiểm tra xem môi trường lập trình của bạn đã sẵn sàng chưa, đồng thời giúp bạn làm quen với cấu trúc cơ bản của một chương trình Java.</p>
+<p>Một chương trình "Hello World" trong Java trông như sau:</p>
+<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
+<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">java</div>
+<div class="sticky top-9 md:top-[5.75rem]">
+<div class="absolute bottom-0 right-2 flex h-9 items-center">
+<div class="flex items-center rounded bg-token-sidebar-surface-primary px-2 font-sans text-xs text-token-text-secondary dark:bg-token-main-surface-secondary"><span class="" data-state="closed"><button class="flex gap-1 items-center select-none py-1" aria-label="Sao chép"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg>Sao chép mã</button></span></div>
+</div>
+</div>
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">HelloWorld</span> {
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> {
+        System.out.println(<span class="hljs-string">"Hello, World!"</span>);
+    }
+}
+</code></div>
+</div>
+<p>Chương trình này in ra dòng chữ "Hello, World!" khi bạn chạy nó. Đây là bước khởi đầu đơn giản để làm quen với các khái niệm cơ bản trong Java.</p>
+<h4><strong>4. Làm quen với các khái niệm cơ bản trong Java</strong></h4>
+<p>Khi bạn đã làm quen với việc tạo ra chương trình "Hello World", bước tiếp theo là hiểu các khái niệm cơ bản trong Java, chẳng hạn như:</p>
+<ul>
+<li><strong>Lớp (Class)</strong>: Lớp là mô hình của một đối tượng trong Java. Nó định nghĩa các thuộc tính và phương thức của đối tượng đó.</li>
+<li><strong>Đối tượng (Object)</strong>: Đối tượng là thể hiện của lớp, mang các giá trị cụ thể cho các thuộc tính và có thể gọi các phương thức của lớp.</li>
+<li><strong>Phương thức (Method)</strong>: Phương thức là các hành động mà đối tượng có thể thực hiện. Mỗi phương thức có thể nhận vào tham số và trả về giá trị.</li>
+</ul>
+<p>Ví dụ, để hiểu về lớp và đối tượng trong Java, bạn có thể tạo ra một lớp <code>Person</code> với các thuộc tính và phương thức đơn giản:</p>
+<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
+<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">java</div>
+<div class="sticky top-9 md:top-[5.75rem]">
+<div class="absolute bottom-0 right-2 flex h-9 items-center">
+<div class="flex items-center rounded bg-token-sidebar-surface-primary px-2 font-sans text-xs text-token-text-secondary dark:bg-token-main-surface-secondary"><span class="" data-state="closed"><button class="flex gap-1 items-center select-none py-1" aria-label="Sao chép"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg>Sao chép mã</button></span></div>
+</div>
+</div>
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">Person</span> {
+    String name;
+    <span class="hljs-type">int</span> age;
+    
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">introduce</span><span class="hljs-params">()</span> {
+        System.out.println(<span class="hljs-string">"Hello, my name is "</span> + name + <span class="hljs-string">" and I am "</span> + age + <span class="hljs-string">" years old."</span>);
+    }
+    
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> {
+        <span class="hljs-type">Person</span> <span class="hljs-variable">person1</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Person</span>();
+        person1.name = <span class="hljs-string">"John"</span>;
+        person1.age = <span class="hljs-number">25</span>;
+        person1.introduce();
+    }
+}
+</code></div>
+</div>
+<h4><strong>5. Nắm vững các khái niệm nâng cao</strong></h4>
+<p>Khi bạn đã nắm vững các khái niệm cơ bản, tiếp theo là học các chủ đề nâng cao hơn trong Java:</p>
+<ul>
+<li><strong>Lập trình hướng đối tượng (OOP)</strong>: Làm quen với các nguyên lý như kế thừa (inheritance), đa hình (polymorphism), đóng gói (encapsulation) và trừu tượng (abstraction).</li>
+<li><strong>Xử lý ngoại lệ (Exception Handling)</strong>: Java cung cấp cơ chế để xử lý các lỗi hoặc tình huống bất ngờ khi chương trình đang chạy.</li>
+<li><strong>Cộng đồng và thư viện</strong>: Học cách sử dụng các thư viện và framework phổ biến như <strong>Spring</strong> (cho phát triển ứng dụng web), <strong>JavaFX</strong> (cho giao diện người dùng), và <strong>Hibernate</strong> (cho quản lý cơ sở dữ liệu).</li>
+</ul>
+<h4><strong>6. Thực hành qua các bài tập và dự án</strong></h4>
+<p>Để nâng cao kỹ năng lập trình Java của mình, bạn cần thực hành qua các bài tập và dự án thực tế. Thực hành là cách tốt nhất để hiểu sâu về các khái niệm và cải thiện khả năng giải quyết vấn đề. Một số bài tập bạn có thể thử:</p>
+<ul>
+<li>Tạo các chương trình xử lý chuỗi, số, và mảng.</li>
+<li>Xây dựng ứng dụng quản lý danh bạ, quản lý thư viện sách, hoặc một trò chơi đơn giản.</li>
+<li>Thực hiện các dự án nhỏ với các yêu cầu cụ thể để cải thiện kỹ năng lập trình của bạn.</li>
+</ul>
+<h4><strong>7. Tìm kiếm tài liệu học và cộng đồng</strong></h4>
+<p>Có rất nhiều tài liệu học Java miễn phí và trả phí trên internet. Một số nguồn tài liệu bạn có thể tham khảo bao gồm:</p>
+<ul>
+<li><strong>Official Java Documentation</strong>: Tài liệu chính thức của Java từ Oracle cung cấp đầy đủ thông tin về các tính năng của ngôn ngữ.</li>
+<li><strong>Khóa học trực tuyến</strong>: Các nền tảng như <strong>Udemy</strong>, <strong>Coursera</strong>, <strong>Codecademy</strong> có rất nhiều khóa học Java từ cơ bản đến nâng cao.</li>
+<li><strong>Cộng đồng</strong>: Tham gia các diễn đàn lập trình như <strong>Stack Overflow</strong>, <strong>Reddit</strong>, và các nhóm trên <strong>Facebook</strong> hoặc <strong>Discord</strong> sẽ giúp bạn giải quyết các vấn đề khi học Java.</li>
+</ul>
+<h4><strong>8. Kiên nhẫn và kiên trì</strong></h4>
+<p>Cuối cùng, để thành thạo Java, bạn cần có sự kiên nhẫn và kiên trì. Học lập trình là một quá trình dài và đôi khi sẽ gặp phải thử thách. Tuy nhiên, nếu bạn tiếp tục học hỏi và thực hành mỗi ngày, bạn sẽ sớm trở thành một lập trình viên Java thành thạo.</p>
+<hr>
+<h3><strong>Kết luận</strong></h3>
+<p>Học Java là một hành trình tuyệt vời và bổ ích cho bất kỳ ai muốn bắt đầu sự nghiệp lập trình. Với các bước cơ bản như cài đặt môi trường phát triển, tạo các chương trình đơn giản, và làm quen với các khái niệm lập trình hướng đối tượng, bạn sẽ dần nắm vững được ngôn ngữ này. Hãy tận dụng các tài liệu học và cộng đồng trực tuyến để tìm kiếm sự trợ giúp và nâng cao kỹ năng của mình.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Tìm hiểu về Collections trong Java</title>
+        <author>
+            <name>vandaivi</name>
+        </author>
+        <link href="https://github.com/vandaivi/blog.git/tim-hieu-ve-collections-trong-java.html"/>
+        <id>https://github.com/vandaivi/blog.git/tim-hieu-ve-collections-trong-java.html</id>
+        <media:content url="https://github.com/vandaivi/blog.git/media/posts/13/collection-trong-java.webp" medium="image" />
+
+        <updated>2024-12-29T18:02:16+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://github.com/vandaivi/blog.git/media/posts/13/collection-trong-java.webp" alt="" />
+                    Giới thiệu về Collections Framework Java Collections Framework là một phần quan trọng trong Java, giúp lập trình viên làm&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://github.com/vandaivi/blog.git/media/posts/13/collection-trong-java.webp" class="type:primaryImage" alt="" /></p>
+                <div class="flex max-w-full flex-col flex-grow">
+<div class="min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&amp;]:mt-5" dir="auto" data-message-author-role="assistant" data-message-id="07107985-9487-4407-a14d-ac8ae0ab5bed" data-message-model-slug="gpt-4o">
+<div class="flex w-full flex-col gap-1 empty:hidden first:pt-[3px]">
+<div class="markdown prose w-full break-words dark:prose-invert dark">
+<p><strong>Giới thiệu về Collections Framework</strong><br>Java Collections Framework là một phần quan trọng trong Java, giúp lập trình viên làm việc với các tập hợp dữ liệu như danh sách (list), tập hợp (set), và hàng đợi (queue) một cách hiệu quả. Bộ sưu tập này cung cấp các giao diện và lớp mạnh mẽ để quản lý, xử lý và thao tác dữ liệu.</p>
+<p>Collections Framework được giới thiệu lần đầu tiên từ Java 2 và đã trở thành một công cụ không thể thiếu trong việc phát triển các ứng dụng Java hiện đại.</p>
+<h3><strong>Những thành phần chính của Collections Framework</strong></h3>
+<ol>
+<li>
+<p><strong>Giao diện chính (Core Interfaces):</strong></p>
+<ul>
+<li><code>List</code>: Danh sách có thứ tự, cho phép các phần tử trùng lặp. Các lớp phổ biến: <code>ArrayList</code>, <code>LinkedList</code>.</li>
+<li><code>Set</code>: Tập hợp không cho phép phần tử trùng lặp. Các lớp phổ biến: <code>HashSet</code>, <code>TreeSet</code>.</li>
+<li><code>Map</code>: Ánh xạ (key-value pair), không cho phép trùng lặp key. Các lớp phổ biến: <code>HashMap</code>, <code>TreeMap</code>.</li>
+<li><code>Queue</code>: Hàng đợi được sử dụng để quản lý thứ tự xử lý, chẳng hạn như FIFO (First In, First Out).</li>
+</ul>
+</li>
+<li>
+<p><strong>Các lớp triển khai chính:</strong></p>
+<ul>
+<li><strong><code>ArrayList</code></strong>: Một danh sách động dựa trên mảng, hiệu quả trong việc truy cập phần tử theo chỉ số.</li>
+<li><strong><code>HashSet</code></strong>: Một tập hợp không có thứ tự, sử dụng bảng băm để lưu trữ dữ liệu, giúp truy cập nhanh.</li>
+<li><strong><code>HashMap</code></strong>: Một cấu trúc ánh xạ, sử dụng bảng băm để quản lý các cặp khóa và giá trị.</li>
+</ul>
+</li>
+<li>
+<p><strong>Các công cụ hỗ trợ (Utilities):</strong><br>Java Collections Framework đi kèm với lớp tiện ích <code>Collections</code>, cung cấp các phương thức như:</p>
+<ul>
+<li><code>sort()</code>: Sắp xếp các phần tử trong danh sách.</li>
+<li><code>reverse()</code>: Đảo ngược thứ tự các phần tử.</li>
+<li><code>shuffle()</code>: Xáo trộn thứ tự các phần tử.</li>
+</ul>
+</li>
+</ol>
+<h3><strong>Ví dụ sử dụng Collections trong Java</strong></h3>
+<p><strong>1. Sử dụng <code>ArrayList</code>:</strong></p>
+<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
+<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">java</div>
+<div class="sticky top-9 md:top-[5.75rem]">
+<div class="absolute bottom-0 right-2 flex h-9 items-center">
+<div class="flex items-center rounded bg-token-sidebar-surface-primary px-2 font-sans text-xs text-token-text-secondary dark:bg-token-main-surface-secondary"><span class="" data-state="closed"><button class="flex gap-1 items-center select-none py-1" aria-label="Sao chép"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg>Sao chép mã</button></span></div>
+</div>
+</div>
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-java"><span class="hljs-keyword">import</span> java.util.ArrayList;
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">Main</span> {
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> {
+        ArrayList&lt;String&gt; list = <span class="hljs-keyword">new</span> <span class="hljs-title class_">ArrayList</span>&lt;&gt;();
+        list.add(<span class="hljs-string">"Java"</span>);
+        list.add(<span class="hljs-string">"Python"</span>);
+        list.add(<span class="hljs-string">"JavaScript"</span>);
+
+        System.out.println(<span class="hljs-string">"Danh sách ban đầu: "</span> + list);
+
+        <span class="hljs-comment">// Sắp xếp danh sách</span>
+        list.sort(<span class="hljs-literal">null</span>);
+        System.out.println(<span class="hljs-string">"Danh sách sau khi sắp xếp: "</span> + list);
+    }
+}
+</code></div>
+</div>
+<p><strong>2. Sử dụng <code>HashMap</code>:</strong></p>
+<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
+<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">java</div>
+<div class="sticky top-9 md:top-[5.75rem]">
+<div class="absolute bottom-0 right-2 flex h-9 items-center">
+<div class="flex items-center rounded bg-token-sidebar-surface-primary px-2 font-sans text-xs text-token-text-secondary dark:bg-token-main-surface-secondary"><span class="" data-state="closed"><button class="flex gap-1 items-center select-none py-1" aria-label="Sao chép"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg>Sao chép mã</button></span></div>
+</div>
+</div>
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-java"><span class="hljs-keyword">import</span> java.util.HashMap;
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">Main</span> {
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> {
+        HashMap&lt;Integer, String&gt; map = <span class="hljs-keyword">new</span> <span class="hljs-title class_">HashMap</span>&lt;&gt;();
+        map.put(<span class="hljs-number">1</span>, <span class="hljs-string">"Java"</span>);
+        map.put(<span class="hljs-number">2</span>, <span class="hljs-string">"C++"</span>);
+        map.put(<span class="hljs-number">3</span>, <span class="hljs-string">"Python"</span>);
+
+        <span class="hljs-comment">// Duyệt qua các phần tử trong HashMap</span>
+        <span class="hljs-keyword">for</span> (Integer key : map.keySet()) {
+            System.out.println(<span class="hljs-string">"Key: "</span> + key + <span class="hljs-string">", Value: "</span> + map.get(key));
+        }
+    }
+}
+</code></div>
+</div>
+<h3><strong>Ưu điểm của Collections Framework</strong></h3>
+<ul>
+<li><strong>Hiệu quả</strong>: Cung cấp các thuật toán tối ưu cho việc quản lý dữ liệu.</li>
+<li><strong>Tính tái sử dụng cao</strong>: Các giao diện và lớp được thiết kế theo hướng chung, dễ dàng tái sử dụng và mở rộng.</li>
+<li><strong>Dễ bảo trì</strong>: Giảm đáng kể số lượng mã cần viết và cải thiện chất lượng mã.</li>
+</ul>
+<h3><strong>Kết luận</strong></h3>
+<p>Java Collections Framework là công cụ mạnh mẽ và linh hoạt, giúp lập trình viên xử lý dữ liệu một cách dễ dàng và hiệu quả. Nếu bạn muốn trở thành một lập trình viên Java chuyên nghiệp, việc nắm vững Collections là điều không thể thiếu. Hãy bắt đầu tìm hiểu và thực hành với các lớp trong Collections để tận dụng sức mạnh của chúng trong dự án thực tế của bạn!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="mb-2 flex gap-3 empty:hidden -ml-2">
+<div class="items-center justify-start rounded-xl p-1 flex">
+<div class="flex items-center"><button class="rounded-lg text-token-text-secondary hover:bg-token-main-surface-secondary" aria-label="Read aloud" data-testid="voice-play-turn-action-button"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-md-heavy"><path fill-rule="evenodd" clip-rule="evenodd" d="M11 4.9099C11 4.47485 10.4828 4.24734 10.1621 4.54132L6.67572 7.7372C6.49129 7.90626 6.25019 8.00005 6 8.00005H4C3.44772 8.00005 3 8.44776 3 9.00005V15C3 15.5523 3.44772 16 4 16H6C6.25019 16 6.49129 16.0938 6.67572 16.2629L10.1621 19.4588C10.4828 19.7527 11 19.5252 11 19.0902V4.9099ZM8.81069 3.06701C10.4142 1.59714 13 2.73463 13 4.9099V19.0902C13 21.2655 10.4142 22.403 8.81069 20.9331L5.61102 18H4C2.34315 18 1 16.6569 1 15V9.00005C1 7.34319 2.34315 6.00005 4 6.00005H5.61102L8.81069 3.06701ZM20.3166 6.35665C20.8019 6.09313 21.409 6.27296 21.6725 6.75833C22.5191 8.3176 22.9996 10.1042 22.9996 12.0001C22.9996 13.8507 22.5418 15.5974 21.7323 17.1302C21.4744 17.6185 20.8695 17.8054 20.3811 17.5475C19.8927 17.2896 19.7059 16.6846 19.9638 16.1962C20.6249 14.9444 20.9996 13.5175 20.9996 12.0001C20.9996 10.4458 20.6064 8.98627 19.9149 7.71262C19.6514 7.22726 19.8312 6.62017 20.3166 6.35665ZM15.7994 7.90049C16.241 7.5688 16.8679 7.65789 17.1995 8.09947C18.0156 9.18593 18.4996 10.5379 18.4996 12.0001C18.4996 13.3127 18.1094 14.5372 17.4385 15.5604C17.1357 16.0222 16.5158 16.1511 16.0539 15.8483C15.5921 15.5455 15.4632 14.9255 15.766 14.4637C16.2298 13.7564 16.4996 12.9113 16.4996 12.0001C16.4996 10.9859 16.1653 10.0526 15.6004 9.30063C15.2687 8.85905 15.3578 8.23218 15.7994 7.90049Z" fill="currentColor"></path></svg></button><button class="rounded-lg text-token-text-secondary hover:bg-token-main-surface-secondary" aria-label="Sao chép" data-testid="copy-turn-action-button"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-md-heavy"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg></button>
+<div class="flex"> </div>
+<div class="flex items-center pb-0"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-md"><path d="M3.06957 10.8763C3.62331 6.43564 7.40967 3 12 3C14.2824 3 16.4028 3.85067 18.0118 5.25439V4C18.0118 3.44772 18.4595 3 19.0118 3C19.5641 3 20.0118 3.44772 20.0118 4V8C20.0118 8.55228 19.5641 9 19.0118 9H15C14.4477 9 14 8.55228 14 8C14 7.44772 14.4477 7 15 7H16.9571C15.6757 5.76379 13.9101 5 12 5C8.43108 5 5.48466 7.67174 5.0542 11.1237C4.98586 11.6718 4.48619 12.0607 3.93815 11.9923C3.39011 11.924 3.00123 11.4243 3.06957 10.8763ZM20.0618 12.0077C20.6099 12.076 20.9988 12.5757 20.9304 13.1237C20.3767 17.5644 16.5903 21 12 21C9.72322 21 7.60762 20.1535 5.99999 18.7559V20C5.99999 20.5523 5.55228 21 4.99999 21C4.44771 21 3.99999 20.5523 3.99999 20V16C3.99999 15.4477 4.44771 15 4.99999 15H8.99999C9.55228 15 9.99999 15.4477 9.99999 16C9.99999 16.5523 9.55228 17 8.99999 17H7.04285C8.32433 18.2362 10.0899 19 12 19C15.5689 19 18.5153 16.3283 18.9458 12.8763C19.0141 12.3282 19.5138 11.9393 20.0618 12.0077Z" fill="currentColor"></path></svg><span class="overflow-hidden text-clip whitespace-nowrap text-sm">4o</span></div>
+<span class="" data-state="closed"><button id="radix-:r103:" class="cursor-pointer h-[30px] rounded-md px-1 text-token-text-secondary hover:bg-token-main-surface-secondary" type="button" aria-haspopup="menu" aria-expanded="false" data-state="closed"></button></span></div>
+</div>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Tìm hiểu về framework Spring trong Java</title>
+        <author>
+            <name>vandaivi</name>
+        </author>
+        <link href="https://github.com/vandaivi/blog.git/tim-hieu-ve-framework-spring-trong-java.html"/>
+        <id>https://github.com/vandaivi/blog.git/tim-hieu-ve-framework-spring-trong-java.html</id>
+        <media:content url="https://github.com/vandaivi/blog.git/media/posts/12/R1.jpg" medium="image" />
+
+        <updated>2024-12-29T15:16:10+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://github.com/vandaivi/blog.git/media/posts/12/R1.jpg" alt="" />
+                    Tìm hiểu về framework Spring trong Java Spring Framework là một framework mạnh mẽ và phổ biến trong cộng đồng&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://github.com/vandaivi/blog.git/media/posts/12/R1.jpg" class="type:primaryImage" alt="" /></p>
+                <h3><strong>Tìm hiểu về framework Spring trong Java</strong></h3>
+<p><strong>Spring Framework</strong> là một framework mạnh mẽ và phổ biến trong cộng đồng phát triển Java. Được ra đời vào đầu những năm 2000, Spring đã giúp đơn giản hóa rất nhiều công việc trong phát triển ứng dụng Java, từ việc quản lý các lớp đến bảo mật và phát triển các ứng dụng web. Spring đặc biệt mạnh mẽ trong việc xây dựng các ứng dụng doanh nghiệp quy mô lớn, và nó cung cấp một bộ công cụ đa dạng giúp giảm thiểu sự phức tạp trong việc phát triển ứng dụng.</p>
+<p>Spring có thể được chia thành nhiều module khác nhau, nhưng ba module chính, nổi bật và được sử dụng rộng rãi nhất là:</p>
+<ol>
+<li><strong>Dependency Injection (DI)</strong></li>
+<li><strong>Spring Boot</strong></li>
+<li><strong>Spring Security</strong></li>
+</ol>
+<h4><strong>1. Dependency Injection (DI) trong Spring</strong></h4>
+<p><strong>Dependency Injection</strong> là một kỹ thuật trong lập trình mà trong đó một đối tượng (class) không tự tạo ra các phụ thuộc của mình mà sẽ nhận chúng từ bên ngoài. Kỹ thuật này giúp giảm sự phụ thuộc cứng (tight coupling) giữa các lớp và cải thiện tính linh hoạt của ứng dụng.</p>
+<p>Trong Spring, Dependency Injection được thực hiện thông qua các cách như:</p>
+<ul>
+<li><strong>Constructor Injection</strong>: Các phụ thuộc được truyền vào thông qua constructor của đối tượng.</li>
+<li><strong>Setter Injection</strong>: Các phụ thuộc được truyền vào qua các phương thức setter.</li>
+</ul>
+<p><strong>Lợi ích của Dependency Injection:</strong></p>
+<ul>
+<li>Giảm sự phụ thuộc giữa các lớp.</li>
+<li>Cải thiện khả năng kiểm thử (Testability), vì các lớp có thể dễ dàng thay thế các phụ thuộc bằng các mock objects.</li>
+<li>Giúp mã nguồn dễ hiểu và bảo trì hơn.</li>
+</ul>
+<p><strong>Ví dụ sử dụng Dependency Injection trong Spring:</strong></p>
+<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
+<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">java</div>
+<div class="sticky top-9 md:top-[5.75rem]">
+<div class="absolute bottom-0 right-2 flex h-9 items-center">
+<div class="flex items-center rounded bg-token-sidebar-surface-primary px-2 font-sans text-xs text-token-text-secondary dark:bg-token-main-surface-secondary"><span class="" data-state="closed"><button class="flex gap-1 items-center select-none py-1" aria-label="Sao chép"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg>Sao chép mã</button></span></div>
+</div>
+</div>
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-java"><span class="hljs-meta">@Component</span>
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">Service</span> {
+    <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> Repository repository;
+
+    <span class="hljs-comment">// Constructor Injection</span>
+    <span class="hljs-meta">@Autowired</span>
+    <span class="hljs-keyword">public</span> <span class="hljs-title function_">Service</span><span class="hljs-params">(Repository repository)</span> {
+        <span class="hljs-built_in">this</span>.repository = repository;
+    }
+
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">performAction</span><span class="hljs-params">()</span> {
+        repository.save();
+    }
+}
+
+<span class="hljs-meta">@Component</span>
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">Repository</span> {
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">save</span><span class="hljs-params">()</span> {
+        System.out.println(<span class="hljs-string">"Data saved."</span>);
+    }
+}
+
+<span class="hljs-meta">@Configuration</span>
+<span class="hljs-meta">@ComponentScan(basePackages = "com.example")</span>
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">AppConfig</span> {
+}
+</code></div>
+</div>
+<p>Trong ví dụ trên:</p>
+<ul>
+<li>Lớp <code>Service</code> có một phụ thuộc là lớp <code>Repository</code>.</li>
+<li>Spring tự động cung cấp đối tượng <code>Repository</code> cho lớp <code>Service</code> thông qua constructor.</li>
+</ul>
+<h4><strong>2. Spring Boot</strong></h4>
+<p><strong>Spring Boot</strong> là một module của Spring được thiết kế để đơn giản hóa việc phát triển ứng dụng Java. Spring Boot giúp giảm thiểu sự cấu hình thủ công và giúp bạn nhanh chóng khởi tạo một ứng dụng Java. Với Spring Boot, bạn có thể tạo ra các ứng dụng Java web một cách nhanh chóng mà không cần phải cấu hình quá nhiều, nhờ vào các tính năng như:</p>
+<ul>
+<li><strong>Auto Configuration</strong>: Spring Boot tự động cấu hình các thành phần ứng dụng dựa trên các thư viện có sẵn trong classpath.</li>
+<li><strong>Embedded Servers</strong>: Spring Boot có thể tự động tích hợp các máy chủ web như Tomcat, Jetty mà không cần cấu hình thêm.</li>
+<li><strong>Production Ready</strong>: Spring Boot cung cấp các tính năng như health check, metrics, và logging sẵn có, giúp dễ dàng triển khai ứng dụng vào môi trường sản xuất.</li>
+</ul>
+<p><strong>Ví dụ về một ứng dụng Spring Boot đơn giản:</strong></p>
+<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
+<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">java</div>
+<div class="sticky top-9 md:top-[5.75rem]">
+<div class="absolute bottom-0 right-2 flex h-9 items-center">
+<div class="flex items-center rounded bg-token-sidebar-surface-primary px-2 font-sans text-xs text-token-text-secondary dark:bg-token-main-surface-secondary"><span class="" data-state="closed"><button class="flex gap-1 items-center select-none py-1" aria-label="Sao chép"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg>Sao chép mã</button></span></div>
+</div>
+</div>
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-java"><span class="hljs-meta">@SpringBootApplication</span>
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">Application</span> {
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> {
+        SpringApplication.run(Application.class, args);
+    }
+}
+
+<span class="hljs-meta">@RestController</span>
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">HelloController</span> {
+    <span class="hljs-meta">@GetMapping("/")</span>
+    <span class="hljs-keyword">public</span> String <span class="hljs-title function_">hello</span><span class="hljs-params">()</span> {
+        <span class="hljs-keyword">return</span> <span class="hljs-string">"Hello, Spring Boot!"</span>;
+    }
+}
+</code></div>
+</div>
+<p>Trong ví dụ trên:</p>
+<ul>
+<li>Annotation <code>@SpringBootApplication</code> đánh dấu đây là ứng dụng Spring Boot.</li>
+<li><code>SpringApplication.run()</code> khởi động ứng dụng.</li>
+<li><code>@RestController</code> tạo một controller để xử lý các yêu cầu HTTP và trả về dữ liệu.</li>
+</ul>
+<p>Spring Boot giúp bạn dễ dàng khởi tạo ứng dụng mà không cần phải cấu hình chi tiết, chỉ cần chạy ứng dụng và nó sẽ tự động cấu hình mọi thứ.</p>
+<h4><strong>3. Spring Security</strong></h4>
+<p><strong>Spring Security</strong> là một framework bảo mật mạnh mẽ cho các ứng dụng Java. Nó cung cấp các giải pháp cho các vấn đề bảo mật thông dụng như xác thực (authentication) và phân quyền (authorization). Spring Security có thể bảo vệ các ứng dụng web khỏi nhiều loại tấn công phổ biến như SQL Injection, XSS (Cross-Site Scripting), và CSRF (Cross-Site Request Forgery).</p>
+<p>Các tính năng chính của Spring Security bao gồm:</p>
+<ul>
+<li><strong>Xác thực người dùng</strong>: Quản lý việc đăng nhập, đăng ký người dùng và các cơ chế xác thực như username/password, OAuth, LDAP, v.v.</li>
+<li><strong>Phân quyền người dùng</strong>: Quản lý quyền truy cập vào các phần của ứng dụng dựa trên vai trò của người dùng (ví dụ: Admin, User).</li>
+<li><strong>Bảo vệ khỏi các cuộc tấn công phổ biến</strong>: Spring Security cung cấp các cơ chế bảo vệ khỏi CSRF, XSS, và bảo mật các endpoints API.</li>
+</ul>
+<p><strong>Ví dụ về cấu hình bảo mật với Spring Security:</strong></p>
+<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
+<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">java</div>
+<div class="sticky top-9 md:top-[5.75rem]">
+<div class="absolute bottom-0 right-2 flex h-9 items-center">
+<div class="flex items-center rounded bg-token-sidebar-surface-primary px-2 font-sans text-xs text-token-text-secondary dark:bg-token-main-surface-secondary"><span class="" data-state="closed"><button class="flex gap-1 items-center select-none py-1" aria-label="Sao chép"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg>Sao chép mã</button></span></div>
+</div>
+</div>
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-java"><span class="hljs-meta">@Configuration</span>
+<span class="hljs-meta">@EnableWebSecurity</span>
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">SecurityConfig</span> <span class="hljs-keyword">extends</span> <span class="hljs-title class_">WebSecurityConfigurerAdapter</span> {
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-keyword">protected</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">configure</span><span class="hljs-params">(HttpSecurity http)</span> <span class="hljs-keyword">throws</span> Exception {
+        http
+            .authorizeRequests()
+            .antMatchers(<span class="hljs-string">"/admin/**"</span>).hasRole(<span class="hljs-string">"ADMIN"</span>)
+            .antMatchers(<span class="hljs-string">"/user/**"</span>).hasAnyRole(<span class="hljs-string">"USER"</span>, <span class="hljs-string">"ADMIN"</span>)
+            .antMatchers(<span class="hljs-string">"/"</span>, <span class="hljs-string">"/home"</span>).permitAll()
+            .and()
+            .formLogin()
+            .loginPage(<span class="hljs-string">"/login"</span>)
+            .permitAll()
+            .and()
+            .logout()
+            .permitAll();
+    }
+
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-keyword">protected</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">configure</span><span class="hljs-params">(AuthenticationManagerBuilder auth)</span> <span class="hljs-keyword">throws</span> Exception {
+        auth.inMemoryAuthentication()
+            .withUser(<span class="hljs-string">"user"</span>).password(<span class="hljs-string">"{noop}password"</span>).roles(<span class="hljs-string">"USER"</span>)
+            .and()
+            .withUser(<span class="hljs-string">"admin"</span>).password(<span class="hljs-string">"{noop}admin"</span>).roles(<span class="hljs-string">"ADMIN"</span>);
+    }
+}
+</code></div>
+</div>
+<p>Trong ví dụ trên:</p>
+<ul>
+<li><code>@EnableWebSecurity</code> kích hoạt bảo mật cho ứng dụng.</li>
+<li>Các đường dẫn <code>/admin/**</code> chỉ có thể truy cập bởi người dùng có vai trò "ADMIN", còn <code>/user/**</code> cho phép cả "USER" và "ADMIN".</li>
+<li>Sử dụng cơ chế đăng nhập dạng form (<code>formLogin</code>) và cấu hình đăng xuất (<code>logout</code>).</li>
+<li>Cấu hình cơ sở dữ liệu người dùng bằng cách sử dụng <code>inMemoryAuthentication</code> cho phép lưu trữ người dùng tạm thời trong bộ nhớ.</li>
+</ul>
+<hr>
+<h3><strong>Kết luận</strong></h3>
+<p>Spring Framework cung cấp các công cụ mạnh mẽ giúp đơn giản hóa quá trình phát triển ứng dụng Java. Các tính năng như <strong>Dependency Injection</strong>, <strong>Spring Boot</strong>, và <strong>Spring Security</strong> giúp giảm thiểu sự phức tạp trong việc quản lý các đối tượng, tạo ra ứng dụng web nhanh chóng và bảo mật tốt hơn. Với khả năng mở rộng và cấu hình linh hoạt, Spring Framework được sử dụng rộng rãi trong việc phát triển các ứng dụng doanh nghiệp quy mô lớn.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Làm việc với DOM trong JavaScript</title>
+        <author>
+            <name>vandaivi</name>
+        </author>
+        <link href="https://github.com/vandaivi/blog.git/lam-viec-voi-dom-trong-javascript.html"/>
+        <id>https://github.com/vandaivi/blog.git/lam-viec-voi-dom-trong-javascript.html</id>
+        <media:content url="https://github.com/vandaivi/blog.git/media/posts/11/637821746425690452_dom-in-js.jpg" medium="image" />
+
+        <updated>2024-12-29T15:13:54+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://github.com/vandaivi/blog.git/media/posts/11/637821746425690452_dom-in-js.jpg" alt="" />
+                    Làm việc với DOM trong JavaScript DOM (Document Object Model) là một giao diện lập trình ứng dụng (API) cho&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://github.com/vandaivi/blog.git/media/posts/11/637821746425690452_dom-in-js.jpg" class="type:primaryImage" alt="" /></p>
+                <h3><strong>Làm việc với DOM trong JavaScript</strong></h3>
+<p><strong>DOM (Document Object Model)</strong> là một giao diện lập trình ứng dụng (API) cho phép JavaScript tương tác với các phần tử trong trang web. Khi trang web được tải vào trình duyệt, DOM tạo ra một cấu trúc cây để đại diện cho các phần tử HTML. JavaScript có thể sử dụng DOM để thay đổi nội dung, cấu trúc, và kiểu dáng của trang web mà không cần tải lại trang.</p>
+<p>DOM cho phép bạn thực hiện các thao tác như:</p>
+<ul>
+<li><strong>Truy cập và thay đổi các phần tử HTML</strong>: Chẳng hạn như thay đổi văn bản trong một thẻ <code>div</code>, thêm một phần tử mới vào trang, hay thay đổi thuộc tính của một phần tử.</li>
+<li><strong>Thêm, sửa, hoặc xóa các phần tử HTML</strong>: Bạn có thể tạo mới các phần tử và thêm chúng vào DOM, hoặc xóa các phần tử hiện tại khỏi DOM.</li>
+<li><strong>Thêm sự kiện vào các phần tử</strong>: Bạn có thể gắn các sự kiện vào các phần tử, như nhấn nút, rê chuột, hay thay đổi giá trị trong các form.</li>
+</ul>
+<h4><strong>Ví dụ cơ bản với DOM: Thêm một đoạn văn mới vào trang</strong></h4>
+<p>Giả sử bạn muốn thêm một đoạn văn vào trang web bằng JavaScript. Bạn có thể thực hiện như sau:</p>
+<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
+<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">javascript</div>
+<div class="sticky top-9 md:top-[5.75rem]">
+<div class="absolute bottom-0 right-2 flex h-9 items-center">
+<div class="flex items-center rounded bg-token-sidebar-surface-primary px-2 font-sans text-xs text-token-text-secondary dark:bg-token-main-surface-secondary"><span class="" data-state="closed"><button class="flex gap-1 items-center select-none py-1" aria-label="Sao chép"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg>Sao chép mã</button></span></div>
+</div>
+</div>
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-javascript"><span class="hljs-comment">// Tạo một phần tử &lt;p&gt; mới</span>
+<span class="hljs-keyword">let</span> p = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">createElement</span>(<span class="hljs-string">'p'</span>);
+
+<span class="hljs-comment">// Thêm nội dung vào phần tử &lt;p&gt;</span>
+p.<span class="hljs-property">innerHTML</span> = <span class="hljs-string">'Đây là một đoạn văn mới.'</span>;
+
+<span class="hljs-comment">// Thêm phần tử &lt;p&gt; vào cuối body của trang</span>
+<span class="hljs-variable language_">document</span>.<span class="hljs-property">body</span>.<span class="hljs-title function_">appendChild</span>(p);
+</code></div>
+</div>
+<p><strong>Giải thích mã:</strong></p>
+<ol>
+<li><strong><code>document.createElement('p')</code></strong>: Tạo một phần tử HTML mới kiểu <code>&lt;p&gt;</code>.</li>
+<li><strong><code>p.innerHTML = 'Đây là một đoạn văn mới.'</code></strong>: Gán nội dung cho phần tử <code>&lt;p&gt;</code>. Nội dung này sẽ hiển thị trên trang web.</li>
+<li><strong><code>document.body.appendChild(p)</code></strong>: Thêm phần tử <code>&lt;p&gt;</code> vừa tạo vào cuối phần tử <code>&lt;body&gt;</code> của trang web.</li>
+</ol>
+<p>Sau khi mã JavaScript này được thực thi, một đoạn văn mới với nội dung "Đây là một đoạn văn mới." sẽ được thêm vào trang web.</p>
+<h4><strong>Các thao tác khác với DOM:</strong></h4>
+<ul>
+<li>
+<p><strong>Truy cập phần tử HTML</strong>: Bạn có thể truy cập các phần tử HTML bằng cách sử dụng các phương thức như <code>getElementById</code>, <code>getElementsByClassName</code>, hoặc <code>querySelector</code>.</p>
+<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
+<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">javascript</div>
+<div class="sticky top-9 md:top-[5.75rem]">
+<div class="absolute bottom-0 right-2 flex h-9 items-center">
+<div class="flex items-center rounded bg-token-sidebar-surface-primary px-2 font-sans text-xs text-token-text-secondary dark:bg-token-main-surface-secondary"><span class="" data-state="closed"><button class="flex gap-1 items-center select-none py-1" aria-label="Sao chép"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg>Sao chép mã</button></span></div>
+</div>
+</div>
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-javascript"><span class="hljs-comment">// Truy cập phần tử có id là "header"</span>
+<span class="hljs-keyword">let</span> header = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">'header'</span>);
+header.<span class="hljs-property">innerHTML</span> = <span class="hljs-string">'Chào mừng đến với trang của tôi!'</span>;
+</code></div>
+</div>
+</li>
+<li>
+<p><strong>Thay đổi thuộc tính của phần tử</strong>: Bạn có thể thay đổi các thuộc tính của phần tử như <code>src</code>, <code>href</code>, <code>style</code>, v.v.</p>
+<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
+<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">javascript</div>
+<div class="sticky top-9 md:top-[5.75rem]">
+<div class="absolute bottom-0 right-2 flex h-9 items-center">
+<div class="flex items-center rounded bg-token-sidebar-surface-primary px-2 font-sans text-xs text-token-text-secondary dark:bg-token-main-surface-secondary"><span class="" data-state="closed"><button class="flex gap-1 items-center select-none py-1" aria-label="Sao chép"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg>Sao chép mã</button></span></div>
+</div>
+</div>
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-javascript"><span class="hljs-keyword">let</span> img = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">'myImage'</span>);
+img.<span class="hljs-property">src</span> = <span class="hljs-string">'new-image.jpg'</span>;
+img.<span class="hljs-property">alt</span> = <span class="hljs-string">'Ảnh mới'</span>;
+</code></div>
+</div>
+</li>
+<li>
+<p><strong>Thêm sự kiện vào phần tử</strong>: Bạn có thể gắn sự kiện như <code>click</code>, <code>mouseover</code>, v.v. vào phần tử để thực hiện một hành động khi người dùng tương tác với phần tử đó.</p>
+<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
+<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">javascript</div>
+<div class="sticky top-9 md:top-[5.75rem]">
+<div class="absolute bottom-0 right-2 flex h-9 items-center">
+<div class="flex items-center rounded bg-token-sidebar-surface-primary px-2 font-sans text-xs text-token-text-secondary dark:bg-token-main-surface-secondary"><span class="" data-state="closed"><button class="flex gap-1 items-center select-none py-1" aria-label="Sao chép"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg>Sao chép mã</button></span></div>
+</div>
+</div>
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-javascript"><span class="hljs-keyword">let</span> button = <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">'myButton'</span>);
+button.<span class="hljs-title function_">addEventListener</span>(<span class="hljs-string">'click'</span>, <span class="hljs-keyword">function</span>() {
+  <span class="hljs-title function_">alert</span>(<span class="hljs-string">'Nút đã được nhấn!'</span>);
+});
+</code></div>
+</div>
+</li>
+</ul>
+<h4><strong>Kết luận</strong></h4>
+<p>DOM là công cụ mạnh mẽ giúp JavaScript tương tác với và thay đổi các phần tử trong trang web. Việc sử dụng DOM cho phép bạn làm việc với các phần tử HTML và CSS một cách linh hoạt, tạo ra các trang web động và tương tác hơn.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Lập Trình Hướng Đối Tượng trong Java (OOP)</title>
+        <author>
+            <name>vandaivi</name>
+        </author>
+        <link href="https://github.com/vandaivi/blog.git/lap-trinh-huong-doi-tuong-trong-java-oop.html"/>
+        <id>https://github.com/vandaivi/blog.git/lap-trinh-huong-doi-tuong-trong-java-oop.html</id>
+        <media:content url="https://github.com/vandaivi/blog.git/media/posts/10/oop.png" medium="image" />
+
+        <updated>2024-12-29T15:11:57+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://github.com/vandaivi/blog.git/media/posts/10/oop.png" alt="" />
+                    Lập Trình Hướng Đối Tượng trong Java (OOP) Lập trình hướng đối tượng (Object-Oriented Programming - OOP) là một phương&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://github.com/vandaivi/blog.git/media/posts/10/oop.png" class="type:primaryImage" alt="" /></p>
+                <h3><strong>Lập Trình Hướng Đối Tượng trong Java (OOP)</strong></h3>
+<p>Lập trình hướng đối tượng (Object-Oriented Programming - OOP) là một phương pháp lập trình sử dụng đối tượng và các lớp để tổ chức dữ liệu và các phương thức trong một chương trình. Trong Java, lập trình hướng đối tượng được hỗ trợ đầy đủ và là một trong những yếu tố quan trọng giúp Java trở thành một ngôn ngữ mạnh mẽ, dễ bảo trì và mở rộng. Dưới đây là ba nguyên tắc cơ bản của lập trình hướng đối tượng mà bạn cần nắm vững:</p>
+<h4><strong>1. Kế Thừa (Inheritance)</strong></h4>
+<p>Kế thừa là một cơ chế cho phép một lớp con (subclass) kế thừa các thuộc tính và phương thức của lớp cha (superclass). Điều này giúp tái sử dụng mã nguồn, giảm sự trùng lặp và tạo ra một cấu trúc phân cấp giữa các lớp.</p>
+<p>Trong Java, lớp con có thể kế thừa từ lớp cha bằng cách sử dụng từ khóa <code>extends</code>. Lớp con có thể sử dụng các phương thức và thuộc tính của lớp cha và có thể thay đổi (override) các phương thức đó nếu cần.</p>
+<p><strong>Ví dụ:</strong></p>
+<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
+<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">java</div>
+<div class="sticky top-9 md:top-[5.75rem]">
+<div class="absolute bottom-0 right-2 flex h-9 items-center">
+<div class="flex items-center rounded bg-token-sidebar-surface-primary px-2 font-sans text-xs text-token-text-secondary dark:bg-token-main-surface-secondary"><span class="" data-state="closed"><button class="flex gap-1 items-center select-none py-1" aria-label="Sao chép"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg>Sao chép mã</button></span></div>
+</div>
+</div>
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-java"><span class="hljs-comment">// Lớp cha</span>
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">Animal</span> {
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">eat</span><span class="hljs-params">()</span> {
+        System.out.println(<span class="hljs-string">"Animal is eating"</span>);
+    }
+}
+
+<span class="hljs-comment">// Lớp con kế thừa từ lớp cha</span>
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">Dog</span> <span class="hljs-keyword">extends</span> <span class="hljs-title class_">Animal</span> {
+    <span class="hljs-comment">// Phương thức ăn được kế thừa từ lớp cha và có thể override</span>
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">eat</span><span class="hljs-params">()</span> {
+        System.out.println(<span class="hljs-string">"Dog is eating"</span>);
+    }
+}
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">Main</span> {
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> {
+        <span class="hljs-type">Dog</span> <span class="hljs-variable">dog</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Dog</span>();
+        dog.eat(); <span class="hljs-comment">// In ra "Dog is eating"</span>
+    }
+}
+</code></div>
+</div>
+<p>Trong ví dụ trên, lớp <code>Dog</code> kế thừa phương thức <code>eat</code> từ lớp <code>Animal</code>, nhưng phương thức <code>eat</code> trong lớp <code>Dog</code> đã được ghi đè để thay đổi hành vi.</p>
+<h4><strong>2. Đóng Gói (Encapsulation)</strong></h4>
+<p>Đóng gói là một nguyên lý giúp ẩn giấu dữ liệu và chỉ cho phép truy cập và thay đổi dữ liệu thông qua các phương thức công khai (getter và setter). Điều này giúp bảo vệ dữ liệu khỏi các sự thay đổi không kiểm soát và làm tăng tính bảo mật của chương trình.</p>
+<p>Trong Java, bạn có thể đóng gói các thuộc tính trong lớp bằng cách sử dụng từ khóa <code>private</code> và cung cấp các phương thức getter và setter để truy cập và thay đổi giá trị của chúng.</p>
+<p><strong>Ví dụ:</strong></p>
+<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
+<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">java</div>
+<div class="sticky top-9 md:top-[5.75rem]">
+<div class="absolute bottom-0 right-2 flex h-9 items-center">
+<div class="flex items-center rounded bg-token-sidebar-surface-primary px-2 font-sans text-xs text-token-text-secondary dark:bg-token-main-surface-secondary"><span class="" data-state="closed"><button class="flex gap-1 items-center select-none py-1" aria-label="Sao chép"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg>Sao chép mã</button></span></div>
+</div>
+</div>
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-java"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Person</span> {
+    <span class="hljs-comment">// Thuộc tính được đóng gói, không thể truy cập trực tiếp từ bên ngoài lớp</span>
+    <span class="hljs-keyword">private</span> String name;
+    <span class="hljs-keyword">private</span> <span class="hljs-type">int</span> age;
+
+    <span class="hljs-comment">// Phương thức getter để truy cập dữ liệu</span>
+    <span class="hljs-keyword">public</span> String <span class="hljs-title function_">getName</span><span class="hljs-params">()</span> {
+        <span class="hljs-keyword">return</span> name;
+    }
+
+    <span class="hljs-comment">// Phương thức setter để thay đổi dữ liệu</span>
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">setName</span><span class="hljs-params">(String name)</span> {
+        <span class="hljs-built_in">this</span>.name = name;
+    }
+
+    <span class="hljs-comment">// Phương thức getter và setter cho age</span>
+    <span class="hljs-keyword">public</span> <span class="hljs-type">int</span> <span class="hljs-title function_">getAge</span><span class="hljs-params">()</span> {
+        <span class="hljs-keyword">return</span> age;
+    }
+
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">setAge</span><span class="hljs-params">(<span class="hljs-type">int</span> age)</span> {
+        <span class="hljs-built_in">this</span>.age = age;
+    }
+}
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">Main</span> {
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> {
+        <span class="hljs-type">Person</span> <span class="hljs-variable">person</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Person</span>();
+        person.setName(<span class="hljs-string">"John"</span>);
+        person.setAge(<span class="hljs-number">25</span>);
+        
+        System.out.println(<span class="hljs-string">"Name: "</span> + person.getName()); <span class="hljs-comment">// In ra "Name: John"</span>
+        System.out.println(<span class="hljs-string">"Age: "</span> + person.getAge()); <span class="hljs-comment">// In ra "Age: 25"</span>
+    }
+}
+</code></div>
+</div>
+<p>Trong ví dụ trên, các thuộc tính <code>name</code> và <code>age</code> được khai báo là <code>private</code>, điều này có nghĩa là chúng không thể truy cập trực tiếp từ bên ngoài lớp <code>Person</code>. Thay vào đó, bạn phải sử dụng các phương thức getter và setter để truy cập và thay đổi chúng.</p>
+<h4><strong>3. Đa Hình (Polymorphism)</strong></h4>
+<p>Đa hình là khả năng của một đối tượng có thể tồn tại dưới nhiều hình thức khác nhau. Điều này cho phép các đối tượng khác nhau có thể sử dụng chung một phương thức, nhưng hành vi của phương thức sẽ thay đổi tùy thuộc vào đối tượng gọi nó.</p>
+<p>Có hai loại đa hình trong Java: <strong>đa hình biên dịch (compile-time polymorphism)</strong> và <strong>đa hình thời gian chạy (runtime polymorphism)</strong>.</p>
+<ul>
+<li>
+<p><strong>Đa hình biên dịch (Compile-time Polymorphism)</strong>: Xảy ra khi bạn overload (nạp chồng) một phương thức, tức là bạn định nghĩa nhiều phương thức cùng tên nhưng khác nhau về số lượng hoặc kiểu tham số.</p>
+<p><strong>Ví dụ:</strong></p>
+<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
+<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">java</div>
+<div class="sticky top-9 md:top-[5.75rem]">
+<div class="absolute bottom-0 right-2 flex h-9 items-center">
+<div class="flex items-center rounded bg-token-sidebar-surface-primary px-2 font-sans text-xs text-token-text-secondary dark:bg-token-main-surface-secondary"><span class="" data-state="closed"><button class="flex gap-1 items-center select-none py-1" aria-label="Sao chép"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg>Sao chép mã</button></span></div>
+</div>
+</div>
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-java"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Calculator</span> {
+    <span class="hljs-keyword">public</span> <span class="hljs-type">int</span> <span class="hljs-title function_">add</span><span class="hljs-params">(<span class="hljs-type">int</span> a, <span class="hljs-type">int</span> b)</span> {
+        <span class="hljs-keyword">return</span> a + b;
+    }
+
+    <span class="hljs-keyword">public</span> <span class="hljs-type">double</span> <span class="hljs-title function_">add</span><span class="hljs-params">(<span class="hljs-type">double</span> a, <span class="hljs-type">double</span> b)</span> {
+        <span class="hljs-keyword">return</span> a + b;
+    }
+}
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">Main</span> {
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> {
+        <span class="hljs-type">Calculator</span> <span class="hljs-variable">calculator</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Calculator</span>();
+        System.out.println(calculator.add(<span class="hljs-number">5</span>, <span class="hljs-number">3</span>));     <span class="hljs-comment">// In ra 8</span>
+        System.out.println(calculator.add(<span class="hljs-number">2.5</span>, <span class="hljs-number">3.5</span>)); <span class="hljs-comment">// In ra 6.0</span>
+    }
+}
+</code></div>
+</div>
+<p>Trong ví dụ này, phương thức <code>add</code> được nạp chồng (overloaded) với các tham số khác nhau.</p>
+</li>
+<li>
+<p><strong>Đa hình thời gian chạy (Runtime Polymorphism)</strong>: Xảy ra khi bạn override một phương thức trong lớp con. Lúc này, Java sẽ quyết định phương thức nào sẽ được gọi dựa trên loại đối tượng thực tế, chứ không phải loại của biến tham chiếu.</p>
+<p><strong>Ví dụ:</strong></p>
+<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
+<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">java</div>
+<div class="sticky top-9 md:top-[5.75rem]">
+<div class="absolute bottom-0 right-2 flex h-9 items-center">
+<div class="flex items-center rounded bg-token-sidebar-surface-primary px-2 font-sans text-xs text-token-text-secondary dark:bg-token-main-surface-secondary"><span class="" data-state="closed"><button class="flex gap-1 items-center select-none py-1" aria-label="Sao chép"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg>Sao chép mã</button></span></div>
+</div>
+</div>
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-java"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Animal</span> {
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">sound</span><span class="hljs-params">()</span> {
+        System.out.println(<span class="hljs-string">"Animal makes a sound"</span>);
+    }
+}
+
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">Dog</span> <span class="hljs-keyword">extends</span> <span class="hljs-title class_">Animal</span> {
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">sound</span><span class="hljs-params">()</span> {
+        System.out.println(<span class="hljs-string">"Dog barks"</span>);
+    }
+}
+
+<span class="hljs-keyword">class</span> <span class="hljs-title class_">Cat</span> <span class="hljs-keyword">extends</span> <span class="hljs-title class_">Animal</span> {
+    <span class="hljs-meta">@Override</span>
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">sound</span><span class="hljs-params">()</span> {
+        System.out.println(<span class="hljs-string">"Cat meows"</span>);
+    }
+}
+
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">Main</span> {
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> {
+        <span class="hljs-type">Animal</span> <span class="hljs-variable">animal1</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Dog</span>();
+        <span class="hljs-type">Animal</span> <span class="hljs-variable">animal2</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Cat</span>();
+
+        animal1.sound(); <span class="hljs-comment">// In ra "Dog barks"</span>
+        animal2.sound(); <span class="hljs-comment">// In ra "Cat meows"</span>
+    }
+}
+</code></div>
+</div>
+<p>Trong ví dụ trên, phương thức <code>sound</code> được ghi đè trong cả lớp <code>Dog</code> và <code>Cat</code>. Khi bạn gọi <code>sound()</code> trên các đối tượng <code>animal1</code> và <code>animal2</code>, Java quyết định phương thức nào sẽ được gọi dựa trên loại thực tế của đối tượng (<code>Dog</code> hoặc <code>Cat</code>), không phải loại của biến tham chiếu (<code>Animal</code>).</p>
+</li>
+</ul>
+<hr>
+<h3><strong>Kết luận</strong></h3>
+<p>Lập trình hướng đối tượng (OOP) trong Java giúp tạo ra các ứng dụng linh hoạt, dễ bảo trì và mở rộng. Ba nguyên tắc cơ bản của OOP là <strong>Kế thừa</strong>, <strong>Đóng gói</strong>, và <strong>Đa hình</strong> đều đóng vai trò quan trọng trong việc tổ chức và tái sử dụng mã nguồn hiệu quả. Bằng cách hiểu và áp dụng các nguyên lý này, bạn sẽ có thể viết mã Java một cách sạch sẽ và dễ bảo trì hơn.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Các Khái Niệm Cơ Bản trong JavaScript</title>
+        <author>
+            <name>vandaivi</name>
+        </author>
+        <link href="https://github.com/vandaivi/blog.git/cac-khai-niem-co-ban-trong-javascript-2.html"/>
+        <id>https://github.com/vandaivi/blog.git/cac-khai-niem-co-ban-trong-javascript-2.html</id>
+        <media:content url="https://github.com/vandaivi/blog.git/media/posts/9/javascript-concept.jpeg" medium="image" />
+
+        <updated>2024-12-29T15:08:09+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://github.com/vandaivi/blog.git/media/posts/9/javascript-concept.jpeg" alt="" />
+                    Các Khái Niệm Cơ Bản trong JavaScript JavaScript là một ngôn ngữ lập trình động mạnh mẽ, được sử dụng&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://github.com/vandaivi/blog.git/media/posts/9/javascript-concept.jpeg" class="type:primaryImage" alt="" /></p>
+                <h3><strong>Các Khái Niệm Cơ Bản trong JavaScript</strong></h3>
+<p>JavaScript là một ngôn ngữ lập trình động mạnh mẽ, được sử dụng chủ yếu để xây dựng các ứng dụng web tương tác. Khi bắt đầu học JavaScript, bạn sẽ cần nắm vững các khái niệm cơ bản sau đây để có thể sử dụng ngôn ngữ này một cách hiệu quả:</p>
+<h4><strong>1. Biến (Variables)</strong></h4>
+<p>Biến trong JavaScript là nơi lưu trữ các giá trị mà bạn muốn sử dụng trong chương trình. Bạn có thể tạo ra các biến để lưu trữ nhiều loại dữ liệu khác nhau như chuỗi văn bản, số, giá trị boolean, v.v. Có ba cách khai báo biến trong JavaScript:</p>
+<ul>
+<li><strong><code>var</code></strong>: Là cách khai báo biến truyền thống trong JavaScript, tuy nhiên <code>var</code> có phạm vi toàn cục hoặc trong hàm, không hỗ trợ tốt trong việc hạn chế phạm vi biến.</li>
+<li><strong><code>let</code></strong>: Được giới thiệu trong ECMAScript 6, <code>let</code> có phạm vi block (trong khối mã) và cho phép bạn thay đổi giá trị của biến.</li>
+<li><strong><code>const</code></strong>: Dùng để khai báo các giá trị không thay đổi sau khi được gán.</li>
+</ul>
+<p>Ví dụ:</p>
+<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
+<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">javascript</div>
+<div class="sticky top-9 md:top-[5.75rem]">
+<div class="absolute bottom-0 right-2 flex h-9 items-center">
+<div class="flex items-center rounded bg-token-sidebar-surface-primary px-2 font-sans text-xs text-token-text-secondary dark:bg-token-main-surface-secondary"><span class="" data-state="closed"><button class="flex gap-1 items-center select-none py-1" aria-label="Sao chép"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg>Sao chép mã</button></span></div>
+</div>
+</div>
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-javascript"><span class="hljs-keyword">let</span> name = <span class="hljs-string">"John"</span>; <span class="hljs-comment">// Biến có thể thay đổi giá trị</span>
+<span class="hljs-keyword">const</span> age = <span class="hljs-number">30</span>;    <span class="hljs-comment">// Biến không thay đổi giá trị</span>
+</code></div>
+</div>
+<h4><strong>2. Hàm (Functions)</strong></h4>
+<p>Hàm trong JavaScript là các đoạn mã được gói gọn để thực hiện một công việc cụ thể. Bạn có thể tái sử dụng hàm nhiều lần trong chương trình mà không cần phải viết lại mã. Hàm có thể nhận tham số và trả về kết quả.</p>
+<p>Cấu trúc một hàm trong JavaScript như sau:</p>
+<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
+<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">javascript</div>
+<div class="sticky top-9 md:top-[5.75rem]">
+<div class="absolute bottom-0 right-2 flex h-9 items-center">
+<div class="flex items-center rounded bg-token-sidebar-surface-primary px-2 font-sans text-xs text-token-text-secondary dark:bg-token-main-surface-secondary"><span class="" data-state="closed"><button class="flex gap-1 items-center select-none py-1" aria-label="Sao chép"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg>Sao chép mã</button></span></div>
+</div>
+</div>
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-javascript"><span class="hljs-keyword">function</span> <span class="hljs-title function_">greet</span>(<span class="hljs-params">name</span>) {
+    <span class="hljs-keyword">return</span> <span class="hljs-string">"Hello, "</span> + name + <span class="hljs-string">"!"</span>;
+}
+</code></div>
+</div>
+<p>Bạn có thể gọi hàm bằng cách sử dụng tên hàm và truyền tham số vào:</p>
+<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
+<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">javascript</div>
+<div class="sticky top-9 md:top-[5.75rem]">
+<div class="absolute bottom-0 right-2 flex h-9 items-center">
+<div class="flex items-center rounded bg-token-sidebar-surface-primary px-2 font-sans text-xs text-token-text-secondary dark:bg-token-main-surface-secondary"><span class="" data-state="closed"><button class="flex gap-1 items-center select-none py-1" aria-label="Sao chép"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg>Sao chép mã</button></span></div>
+</div>
+</div>
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-javascript"><span class="hljs-keyword">let</span> greeting = <span class="hljs-title function_">greet</span>(<span class="hljs-string">"John"</span>);
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(greeting); <span class="hljs-comment">// In ra "Hello, John!"</span>
+</code></div>
+</div>
+<p>Ngoài ra, JavaScript còn hỗ trợ <strong>arrow function</strong> (hàm mũi tên), giúp viết hàm ngắn gọn hơn:</p>
+<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
+<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">javascript</div>
+<div class="sticky top-9 md:top-[5.75rem]">
+<div class="absolute bottom-0 right-2 flex h-9 items-center">
+<div class="flex items-center rounded bg-token-sidebar-surface-primary px-2 font-sans text-xs text-token-text-secondary dark:bg-token-main-surface-secondary"><span class="" data-state="closed"><button class="flex gap-1 items-center select-none py-1" aria-label="Sao chép"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg>Sao chép mã</button></span></div>
+</div>
+</div>
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-javascript"><span class="hljs-keyword">const</span> <span class="hljs-title function_">greet</span> = name =&gt; <span class="hljs-string">"Hello, "</span> + name + <span class="hljs-string">"!"</span>;
+</code></div>
+</div>
+<h4><strong>3. Sự Kiện (Events)</strong></h4>
+<p>Sự kiện trong JavaScript cho phép bạn xử lý các hành động mà người dùng thực hiện trên trang web, như nhấn nút, rê chuột, thay đổi giá trị của một ô input, v.v. Bạn có thể gắn các hàm xử lý sự kiện vào các phần tử HTML.</p>
+<p>Ví dụ về sự kiện khi người dùng nhấn nút:</p>
+<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
+<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">html</div>
+<div class="sticky top-9 md:top-[5.75rem]">
+<div class="absolute bottom-0 right-2 flex h-9 items-center">
+<div class="flex items-center rounded bg-token-sidebar-surface-primary px-2 font-sans text-xs text-token-text-secondary dark:bg-token-main-surface-secondary"><span class="" data-state="closed"><button class="flex gap-1 items-center select-none py-1" aria-label="Sao chép"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg>Sao chép mã</button></span></div>
+</div>
+</div>
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-html"><span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"myButton"</span>&gt;</span>Click Me!<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
+  <span class="hljs-variable language_">document</span>.<span class="hljs-title function_">getElementById</span>(<span class="hljs-string">"myButton"</span>).<span class="hljs-title function_">addEventListener</span>(<span class="hljs-string">"click"</span>, <span class="hljs-keyword">function</span>() {
+    <span class="hljs-title function_">alert</span>(<span class="hljs-string">"Button was clicked!"</span>);
+  });
+</span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+</code></div>
+</div>
+<p>Trong đoạn mã trên, khi người dùng nhấn nút "Click Me!", hàm xử lý sự kiện sẽ hiển thị một hộp thoại thông báo (alert).</p>
+<p>Các sự kiện phổ biến trong JavaScript bao gồm:</p>
+<ul>
+<li><strong>click</strong>: Khi người dùng nhấn chuột vào một phần tử.</li>
+<li><strong>mouseover</strong>: Khi người dùng di chuột qua một phần tử.</li>
+<li><strong>keydown/keyup</strong>: Khi người dùng nhấn hoặc nhả phím.</li>
+<li><strong>submit</strong>: Khi người dùng gửi một biểu mẫu (form).</li>
+</ul>
+<h4><strong>4. Các Loại Dữ Liệu trong JavaScript</strong></h4>
+<p>JavaScript hỗ trợ nhiều loại dữ liệu khác nhau, bao gồm:</p>
+<ul>
+<li><strong>String</strong>: Dữ liệu kiểu chuỗi, ví dụ: <code>"Hello, World!"</code>.</li>
+<li><strong>Number</strong>: Dữ liệu kiểu số, ví dụ: <code>123</code>, <code>45.67</code>.</li>
+<li><strong>Boolean</strong>: Dữ liệu kiểu logic, chỉ có hai giá trị: <code>true</code> hoặc <code>false</code>.</li>
+<li><strong>Object</strong>: Dữ liệu kiểu đối tượng, có thể chứa nhiều giá trị với các thuộc tính và phương thức.</li>
+<li><strong>Array</strong>: Mảng, là tập hợp các giá trị cùng kiểu dữ liệu, ví dụ: <code>[1, 2, 3, 4]</code>.</li>
+</ul>
+<h4><strong>5. Điều Kiện và Vòng Lặp</strong></h4>
+<ul>
+<li><strong>Câu lệnh điều kiện (<code>if</code>, <code>else</code>, <code>switch</code>)</strong>: Cho phép bạn kiểm tra điều kiện và thực hiện các hành động khác nhau dựa trên kết quả.</li>
+</ul>
+<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
+<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">javascript</div>
+<div class="sticky top-9 md:top-[5.75rem]">
+<div class="absolute bottom-0 right-2 flex h-9 items-center">
+<div class="flex items-center rounded bg-token-sidebar-surface-primary px-2 font-sans text-xs text-token-text-secondary dark:bg-token-main-surface-secondary"><span class="" data-state="closed"><button class="flex gap-1 items-center select-none py-1" aria-label="Sao chép"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg>Sao chép mã</button></span></div>
+</div>
+</div>
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-javascript"><span class="hljs-keyword">let</span> age = <span class="hljs-number">20</span>;
+<span class="hljs-keyword">if</span> (age &gt;= <span class="hljs-number">18</span>) {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"Bạn là người lớn"</span>);
+} <span class="hljs-keyword">else</span> {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"Bạn là trẻ em"</span>);
+}
+</code></div>
+</div>
+<ul>
+<li><strong>Vòng lặp (<code>for</code>, <code>while</code>)</strong>: Cho phép bạn lặp lại một đoạn mã nhiều lần.</li>
+</ul>
+<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
+<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">javascript</div>
+<div class="sticky top-9 md:top-[5.75rem]">
+<div class="absolute bottom-0 right-2 flex h-9 items-center">
+<div class="flex items-center rounded bg-token-sidebar-surface-primary px-2 font-sans text-xs text-token-text-secondary dark:bg-token-main-surface-secondary"><span class="" data-state="closed"><button class="flex gap-1 items-center select-none py-1" aria-label="Sao chép"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg>Sao chép mã</button></span></div>
+</div>
+</div>
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-javascript"><span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">5</span>; i++) {
+    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(i);  <span class="hljs-comment">// In ra các số từ 0 đến 4</span>
+}
+</code></div>
+</div>
+<h4><strong>6. Mảng (Arrays)</strong></h4>
+<p>Mảng trong JavaScript là một đối tượng đặc biệt dùng để lưu trữ một tập hợp các giá trị. Mảng có thể chứa các phần tử có kiểu dữ liệu khác nhau.</p>
+<p>Ví dụ về mảng:</p>
+<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
+<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">javascript</div>
+<div class="sticky top-9 md:top-[5.75rem]">
+<div class="absolute bottom-0 right-2 flex h-9 items-center">
+<div class="flex items-center rounded bg-token-sidebar-surface-primary px-2 font-sans text-xs text-token-text-secondary dark:bg-token-main-surface-secondary"><span class="" data-state="closed"><button class="flex gap-1 items-center select-none py-1" aria-label="Sao chép"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg>Sao chép mã</button></span></div>
+</div>
+</div>
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-javascript"><span class="hljs-keyword">let</span> fruits = [<span class="hljs-string">"apple"</span>, <span class="hljs-string">"banana"</span>, <span class="hljs-string">"cherry"</span>];
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(fruits[<span class="hljs-number">0</span>]); <span class="hljs-comment">// In ra "apple"</span>
+</code></div>
+</div>
+<p>Bạn có thể thao tác với mảng bằng các phương thức như <code>push()</code>, <code>pop()</code>, <code>shift()</code>, <code>unshift()</code>, và nhiều phương thức khác.</p>
+<h4><strong>7. Đối Tượng (Objects)</strong></h4>
+<p>Đối tượng trong JavaScript là một tập hợp các cặp khóa-giá trị. Mỗi khóa trong đối tượng là một thuộc tính, và giá trị của nó có thể là bất kỳ loại dữ liệu nào, bao gồm cả các đối tượng hoặc mảng khác.</p>
+<p>Ví dụ về đối tượng:</p>
+<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
+<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">javascript</div>
+<div class="sticky top-9 md:top-[5.75rem]">
+<div class="absolute bottom-0 right-2 flex h-9 items-center">
+<div class="flex items-center rounded bg-token-sidebar-surface-primary px-2 font-sans text-xs text-token-text-secondary dark:bg-token-main-surface-secondary"><span class="" data-state="closed"><button class="flex gap-1 items-center select-none py-1" aria-label="Sao chép"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg>Sao chép mã</button></span></div>
+</div>
+</div>
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-javascript"><span class="hljs-keyword">let</span> person = {
+    <span class="hljs-attr">name</span>: <span class="hljs-string">"John"</span>,
+    <span class="hljs-attr">age</span>: <span class="hljs-number">30</span>,
+    <span class="hljs-attr">greet</span>: <span class="hljs-keyword">function</span>() {
+        <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"Hello, "</span> + <span class="hljs-variable language_">this</span>.<span class="hljs-property">name</span>);
+    }
+};
+person.<span class="hljs-title function_">greet</span>();  <span class="hljs-comment">// In ra "Hello, John"</span>
+</code></div>
+</div>
+<hr>
+<h3><strong>Kết Luận</strong></h3>
+<p>JavaScript là ngôn ngữ không thể thiếu khi phát triển các ứng dụng web động. Các khái niệm cơ bản như biến, hàm, sự kiện, mảng, và đối tượng là nền tảng để bạn xây dựng các ứng dụng web phức tạp. Hãy chắc chắn rằng bạn đã hiểu rõ và thực hành tốt những khái niệm này trước khi chuyển sang các chủ đề nâng cao như xử lý bất đồng bộ, framework và thư viện JavaScript.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>So sánh Java và JavaScript: Sự khác biệt quan trọng</title>
+        <author>
+            <name>vandaivi</name>
+        </author>
+        <link href="https://github.com/vandaivi/blog.git/so-sanh-java-va-javascript-su-khac-biet-quan-trong.html"/>
+        <id>https://github.com/vandaivi/blog.git/so-sanh-java-va-javascript-su-khac-biet-quan-trong.html</id>
+        <media:content url="https://github.com/vandaivi/blog.git/media/posts/7/su-khac-nhau-giua-java-va-javascript-20220301154436-588758.jpg" medium="image" />
+
+        <updated>2024-12-29T15:00:30+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://github.com/vandaivi/blog.git/media/posts/7/su-khac-nhau-giua-java-va-javascript-20220301154436-588758.jpg" alt="" />
+                    Java và JavaScript đều là hai ngôn ngữ lập trình phổ biến, nhưng mặc dù tên gọi của chúng khá&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://github.com/vandaivi/blog.git/media/posts/7/su-khac-nhau-giua-java-va-javascript-20220301154436-588758.jpg" class="type:primaryImage" alt="" /></p>
+                <p><strong>Java</strong> và <strong>JavaScript</strong> đều là hai ngôn ngữ lập trình phổ biến, nhưng mặc dù tên gọi của chúng khá giống nhau, thực tế chúng có rất nhiều sự khác biệt. Mặc dù cả hai ngôn ngữ này đều có vai trò quan trọng trong lập trình, chúng phục vụ cho các mục đích khác nhau và có những đặc điểm riêng biệt. Dưới đây là sự so sánh chi tiết giữa Java và JavaScript.</p>
+<hr>
+<h3><strong>1. Khác biệt về mục đích sử dụng</strong></h3>
+<h4><strong>Java: Ngôn ngữ phát triển ứng dụng toàn diện</strong></h4>
+<p>Java là một ngôn ngữ lập trình hướng đối tượng mạnh mẽ và phổ biến, được phát triển bởi <strong>Sun Microsystems</strong> (nay thuộc Oracle). Java được sử dụng chủ yếu trong phát triển ứng dụng máy tính (desktop), ứng dụng di động (Android), hệ thống phân tán và các ứng dụng web phức tạp. Một trong những đặc điểm quan trọng của Java là khả năng <strong>cross-platform</strong> – tức là ứng dụng Java có thể chạy trên nhiều hệ điều hành khác nhau mà không cần thay đổi mã nguồn, nhờ vào <strong>Java Virtual Machine (JVM)</strong>.</p>
+<p>Java thường được sử dụng trong các ứng dụng lớn, yêu cầu tính ổn định, bảo mật và hiệu suất cao. Nó là sự lựa chọn phổ biến cho các hệ thống doanh nghiệp, ứng dụng Android và các dịch vụ back-end.</p>
+<h4><strong>JavaScript: Ngôn ngữ của web và trình duyệt</strong></h4>
+<p>JavaScript, ngược lại, là một ngôn ngữ kịch bản chủ yếu chạy trong trình duyệt web và phục vụ mục đích tạo ra các tính năng tương tác động cho trang web. JavaScript giúp lập trình viên xây dựng các trang web có khả năng phản hồi nhanh chóng với người dùng mà không cần tải lại toàn bộ trang, thông qua việc tương tác với <strong>Document Object Model (DOM)</strong> của trang web.</p>
+<p>JavaScript được sử dụng chủ yếu trong phát triển <strong>front-end</strong> (giao diện người dùng), nhưng với sự ra đời của <strong>Node.js</strong>, JavaScript cũng được sử dụng trong phát triển <strong>back-end</strong> để xử lý các yêu cầu máy chủ. Ngày nay, JavaScript được sử dụng trong hầu hết các ứng dụng web, từ các trang web đơn giản đến các ứng dụng phức tạp như <strong>Single Page Applications (SPA)</strong>.</p>
+<hr>
+<h3><strong>2. Cú pháp và cấu trúc ngôn ngữ</strong></h3>
+<h4><strong>Java: Cú pháp nghiêm ngặt, hướng đối tượng</strong></h4>
+<p>Java là ngôn ngữ lập trình hướng đối tượng, có cấu trúc cú pháp chặt chẽ và yêu cầu lập trình viên tuân thủ các quy tắc nghiêm ngặt. Mỗi chương trình Java phải chứa một lớp (class) và một phương thức main() làm điểm bắt đầu thực thi. Java có một hệ thống kiểu dữ liệu mạnh mẽ, với các kiểu dữ liệu cơ bản như <code>int</code>, <code>float</code>, <code>char</code>, <code>boolean</code>, và các lớp đối tượng được định nghĩa rõ ràng.</p>
+<p>Ví dụ về cú pháp Java:</p>
+<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
+<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">java</div>
+<div class="sticky top-9 md:top-[5.75rem]">
+<div class="absolute bottom-0 right-2 flex h-9 items-center">
+<div class="flex items-center rounded bg-token-sidebar-surface-primary px-2 font-sans text-xs text-token-text-secondary dark:bg-token-main-surface-secondary"><span class="" data-state="closed"><button class="flex gap-1 items-center select-none py-1" aria-label="Sao chép"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg>Sao chép mã</button></span></div>
+</div>
+</div>
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">HelloWorld</span> {
+    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> {
+        System.out.println(<span class="hljs-string">"Hello, World!"</span>);
+    }
+}
+</code></div>
+</div>
+<h4><strong>JavaScript: Cú pháp linh hoạt, dễ học</strong></h4>
+<p>JavaScript có cú pháp linh hoạt và dễ học hơn, đặc biệt với người mới bắt đầu. Mặc dù JavaScript hỗ trợ các tính năng lập trình hướng đối tượng, nhưng nó không yêu cầu cấu trúc nghiêm ngặt như Java. JavaScript có thể chạy trực tiếp trên trình duyệt và có thể được nhúng vào HTML để xử lý các sự kiện và tạo hiệu ứng động.</p>
+<p>Một ví dụ về cú pháp JavaScript:</p>
+<div class="contain-inline-size rounded-md border-[0.5px] border-token-border-medium relative bg-token-sidebar-surface-primary dark:bg-gray-950">
+<div class="flex items-center text-token-text-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md h-9 bg-token-sidebar-surface-primary dark:bg-token-main-surface-secondary select-none">javascript</div>
+<div class="sticky top-9 md:top-[5.75rem]">
+<div class="absolute bottom-0 right-2 flex h-9 items-center">
+<div class="flex items-center rounded bg-token-sidebar-surface-primary px-2 font-sans text-xs text-token-text-secondary dark:bg-token-main-surface-secondary"><span class="" data-state="closed"><button class="flex gap-1 items-center select-none py-1" aria-label="Sao chép"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-sm"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg>Sao chép mã</button></span></div>
+</div>
+</div>
+<div class="overflow-y-auto p-4" dir="ltr"><code class="!whitespace-pre hljs language-javascript"><span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"Hello, World!"</span>);
+</code></div>
+</div>
+<p>JavaScript cho phép lập trình viên không cần khai báo kiểu dữ liệu trước khi sử dụng, điều này làm cho mã nguồn ngắn gọn hơn, nhưng cũng có thể gây ra những vấn đề về hiệu suất và bảo mật nếu không cẩn thận.</p>
+<hr>
+<h3><strong>3. Quản lý bộ nhớ</strong></h3>
+<h4><strong>Java: Quản lý bộ nhớ tự động với Garbage Collection</strong></h4>
+<p>Java có cơ chế quản lý bộ nhớ tự động thông qua <strong>Garbage Collection</strong> (GC). GC trong Java giúp tự động thu dọn bộ nhớ không còn sử dụng, giúp giảm thiểu rủi ro của các vấn đề liên quan đến bộ nhớ như <strong>memory leaks</strong> (rò rỉ bộ nhớ). Lập trình viên không cần phải lo lắng quá nhiều về việc giải phóng bộ nhớ, vì Java sẽ tự động xử lý vấn đề này trong nền.</p>
+<p>Tuy nhiên, việc Garbage Collection có thể ảnh hưởng đến hiệu suất của ứng dụng nếu không được tối ưu hóa tốt, đặc biệt trong các ứng dụng yêu cầu tài nguyên bộ nhớ lớn.</p>
+<h4><strong>JavaScript: Quản lý bộ nhớ tự động trong trình duyệt</strong></h4>
+<p>JavaScript cũng có cơ chế Garbage Collection tự động, tuy nhiên nó hoạt động trong môi trường trình duyệt hoặc Node.js. Trình duyệt tự động thu dọn bộ nhớ không còn sử dụng, tuy nhiên JavaScript không cung cấp cho lập trình viên khả năng kiểm soát chi tiết như Java. Một số trường hợp phức tạp như <strong>closures</strong> trong JavaScript có thể gây khó khăn trong việc quản lý bộ nhớ, nếu không chú ý đến cách thức hoạt động của GC.</p>
+<hr>
+<h3><strong>4. Hiệu suất và tốc độ</strong></h3>
+<h4><strong>Java: Hiệu suất cao, nhưng yêu cầu tài nguyên</strong></h4>
+<p>Java có hiệu suất cao nhờ vào khả năng biên dịch trước khi chạy mã vào <strong>bytecode</strong> và sau đó thực thi trên JVM. Mặc dù JVM cung cấp khả năng <strong>cross-platform</strong> tốt, nhưng hiệu suất của Java không thể sánh với các ngôn ngữ biên dịch trực tiếp sang mã máy, như C hoặc C++.</p>
+<p>Java có thể đòi hỏi tài nguyên hệ thống lớn hơn, vì JVM cần bộ nhớ và thời gian xử lý để thực thi các chương trình Java. Tuy nhiên, với các ứng dụng máy tính hoặc di động phức tạp, Java vẫn rất hiệu quả và ổn định.</p>
+<h4><strong>JavaScript: Tốc độ nhanh trong trình duyệt</strong></h4>
+<p>JavaScript được tối ưu hóa để chạy nhanh trên các trình duyệt web và thường được sử dụng để thực thi các thao tác nhanh chóng trên giao diện người dùng mà không cần tải lại trang. Với sự hỗ trợ của các công nghệ như <strong>Just-in-Time (JIT) compilation</strong>, các trình duyệt hiện nay có thể biên dịch và thực thi mã JavaScript nhanh chóng, giúp trang web có thể phản hồi nhanh chóng với người dùng.</p>
+<p>JavaScript thường không đòi hỏi tài nguyên quá cao, nhưng có thể gặp vấn đề về hiệu suất khi thực hiện các tác vụ phức tạp hoặc khi xử lý số lượng lớn dữ liệu.</p>
+<hr>
+<h3><strong>5. Đối tượng và sự kiện</strong></h3>
+<h4><strong>Java: Lập trình hướng đối tượng</strong></h4>
+<p>Java sử dụng <strong>lập trình hướng đối tượng (OOP)</strong>, yêu cầu mọi thứ đều phải được mô hình hóa dưới dạng đối tượng. Điều này bao gồm việc sử dụng các lớp (classes), đối tượng (objects), kế thừa (inheritance), đóng gói (encapsulation) và đa hình (polymorphism). Java phù hợp cho những ứng dụng yêu cầu mô hình hóa các thực thể phức tạp với nhiều đối tượng tương tác với nhau.</p>
+<h4><strong>JavaScript: Lập trình sự kiện và đối tượng</strong></h4>
+<p>JavaScript sử dụng mô hình lập trình sự kiện, nơi mà mọi hành động của người dùng như <strong>click</strong>, <strong>scroll</strong>, <strong>hover</strong>, <strong>input</strong> có thể kích hoạt một sự kiện và thực thi một hành động cụ thể. Mặc dù JavaScript cũng hỗ trợ lập trình hướng đối tượng, nhưng nó không yêu cầu bắt buộc phải sử dụng các khái niệm như lớp hay đối tượng. JavaScript linh hoạt hơn trong việc xử lý sự kiện và tác vụ bất đồng bộ.</p>
+<hr>
+<h3><strong>6. Cộng đồng và ứng dụng thực tế</strong></h3>
+<h4><strong>Java: Sự phổ biến trong doanh nghiệp và phát triển ứng dụng lớn</strong></h4>
+<p>Java vẫn là ngôn ngữ chính trong phát triển các ứng dụng doanh nghiệp, phần mềm tài chính, hệ thống phân tán và các dịch vụ backend lớn. Các công ty lớn, đặc biệt là trong các lĩnh vực ngân hàng, bảo hiểm, và thương mại điện tử, vẫn sử dụng Java để phát triển các hệ thống phức tạp. Java có một cộng đồng người dùng mạnh mẽ và nhiều thư viện hỗ trợ cho các tác vụ phức tạp.</p>
+<h4><strong>JavaScript: Vị trí không thể thay thế trong phát triển web</strong></h4>
+<p>JavaScript là ngôn ngữ không thể thiếu trong phát triển web, với sự hỗ trợ của các framework mạnh mẽ như <strong>React</strong>, <strong>Angular</strong>, và <strong>Vue.js</strong>. Các ứng dụng web động, <strong>Single Page Applications (SPA)</strong> và các hiệu ứng tương tác người dùng đều được xây dựng chủ yếu với JavaScript. JavaScript cũng đang phát triển mạnh mẽ trong phát triển mobile và các ứng dụng máy chủ thông qua <strong>Node.js</strong>.</p>
+<hr>
+<h3><strong>Kết luận</strong></h3>
+<p>Mặc dù Java và JavaScript có tên tương tự, nhưng chúng phục vụ cho các mục đích và lĩnh vực khác nhau. Java là ngôn ngữ lập trình mạnh mẽ và hiệu quả cho các ứng dụng doanh nghiệp, desktop, và di động, trong khi JavaScript là ngôn ngữ chủ yếu trong phát triển web và tương tác người dùng trên trình duyệt.</p>
+<p>Việc hiểu rõ sự khác biệt giữa Java và JavaScript sẽ giúp lập trình viên chọn lựa được công cụ phù hợp cho từng dự án và phát triển ứng dụng một cách hiệu quả.</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>JavaScript - Ngôn Ngữ của Web</title>
+        <author>
+            <name>vandaivi</name>
+        </author>
+        <link href="https://github.com/vandaivi/blog.git/javascript-ngon-ngu-cua-web.html"/>
+        <id>https://github.com/vandaivi/blog.git/javascript-ngon-ngu-cua-web.html</id>
+        <media:content url="https://github.com/vandaivi/blog.git/media/posts/6/R.png" medium="image" />
+
+        <updated>2024-12-29T14:49:19+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://github.com/vandaivi/blog.git/media/posts/6/R.png" alt="" />
+                    1. JavaScript - Ngôn Ngữ của Web JavaScript được Brendan Eich phát triển vào năm 1995 khi ông làm việc&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://github.com/vandaivi/blog.git/media/posts/6/R.png" class="type:primaryImage" alt="" /></p>
+                <div class="flex max-w-full flex-col flex-grow">
+<div class="min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&amp;]:mt-5" dir="auto" data-message-author-role="assistant" data-message-id="a629159e-c4ef-4b2c-b643-3d46df1fd9ba" data-message-model-slug="gpt-4o-mini">
+<div class="flex w-full flex-col gap-1 empty:hidden first:pt-[3px]">
+<div class="markdown prose w-full break-words dark:prose-invert dark">
+<h3><strong>1. JavaScript - Ngôn Ngữ của Web</strong></h3>
+<p>JavaScript được Brendan Eich phát triển vào năm 1995 khi ông làm việc tại <strong>Netscape Communications Corporation</strong>. Ban đầu, JavaScript được gọi là <strong>LiveScript</strong>, nhưng sau đó đã được đổi tên thành <strong>JavaScript</strong> với hy vọng sẽ tận dụng được sự phổ biến của ngôn ngữ <strong>Java</strong> vào thời điểm đó. Tuy nhiên, JavaScript không có liên quan trực tiếp đến Java, mặc dù chúng chia sẻ một số cú pháp.</p>
+<p>Mục đích ban đầu của JavaScript là để tạo ra các tính năng động cho các trang web. Thay vì chỉ hiển thị nội dung tĩnh, JavaScript cho phép lập trình viên xây dựng các trang web có thể thay đổi nội dung theo thời gian thực, mà không cần tải lại trang. JavaScript có thể thao tác với DOM (Document Object Model) để thay đổi cấu trúc của trang web ngay lập tức, cải thiện trải nghiệm người dùng.</p>
+<hr>
+<h3><strong>2. Các Đặc Điểm Nổi Bật Của JavaScript</strong></h3>
+<p>JavaScript sở hữu nhiều đặc điểm vượt trội khiến nó trở thành một công cụ không thể thiếu trong phát triển web hiện đại. Dưới đây là các đặc điểm nổi bật của JavaScript:</p>
+<h4><strong>Chạy Trực Tiếp Trên Trình Duyệt</strong></h4>
+<p>JavaScript là ngôn ngữ duy nhất có thể chạy trực tiếp trên trình duyệt mà không cần cài đặt thêm phần mềm nào. Khi người dùng truy cập vào một trang web, trình duyệt sẽ tự động tải và thực thi mã JavaScript được nhúng trong trang HTML. Điều này giúp tiết kiệm thời gian và tài nguyên, đồng thời giúp website trở nên nhanh chóng và đáp ứng hơn.</p>
+<p>Việc thực thi trực tiếp trên trình duyệt giúp JavaScript dễ dàng tương tác với các yếu tố trên trang web như các thẻ HTML, CSS, và các sự kiện người dùng (nhấn nút, nhập liệu, v.v.). Điều này mang lại trải nghiệm người dùng mượt mà hơn vì nhiều tính năng có thể được thực thi mà không cần tải lại toàn bộ trang.</p>
+<h4><strong>Tính Linh Hoạt Cao</strong></h4>
+<p>JavaScript có tính linh hoạt cực kỳ cao, cho phép lập trình viên phát triển nhiều loại ứng dụng khác nhau. Từ ứng dụng web đơn giản đến các trang web động phức tạp, JavaScript đều có thể đáp ứng tốt nhu cầu. Hơn nữa, JavaScript có thể được sử dụng trong cả phát triển <strong>front-end</strong> và <strong>back-end</strong>, điều này giúp JavaScript trở thành một ngôn ngữ toàn diện cho các nhà phát triển.</p>
+<p>Trong khi JavaScript được sử dụng chủ yếu trong phát triển <strong>front-end</strong> (giao diện người dùng), với sự ra đời của <strong>Node.js</strong>, JavaScript còn được sử dụng trong phát triển <strong>back-end</strong>. Điều này đồng nghĩa với việc lập trình viên có thể sử dụng một ngôn ngữ duy nhất cho cả phía client và server, giảm thiểu sự phức tạp và tiết kiệm thời gian trong phát triển phần mềm.</p>
+<h4><strong>Khả Năng Hỗ Trợ Các Framework Mạnh Mẽ</strong></h4>
+<p>Một trong những lý do khiến JavaScript trở nên phổ biến và mạnh mẽ là khả năng hỗ trợ các <strong>framework</strong> và <strong>thư viện</strong> giúp giảm thiểu thời gian phát triển và dễ dàng triển khai các tính năng phức tạp. Một số framework và thư viện JavaScript nổi bật bao gồm:</p>
+<ul>
+<li>
+<p><strong>React</strong>: Được phát triển bởi Facebook, React là một thư viện JavaScript giúp tạo giao diện người dùng (UI) động và hiệu quả. React sử dụng khái niệm <strong>component-based architecture</strong>, cho phép các phần của giao diện người dùng được tái sử dụng và dễ dàng cập nhật.</p>
+</li>
+<li>
+<p><strong>Angular</strong>: Là một framework phát triển ứng dụng web của Google, Angular cung cấp một công cụ toàn diện để xây dựng các ứng dụng phức tạp và quy mô lớn. Angular hỗ trợ lập trình theo mô hình <strong>MVC</strong> (Model-View-Controller), giúp tổ chức mã nguồn tốt hơn.</p>
+</li>
+<li>
+<p><strong>Vue.js</strong>: Đây là một framework phát triển giao diện người dùng nhẹ, dễ sử dụng và rất linh hoạt. Vue.js được yêu thích nhờ vào cấu trúc đơn giản và tính năng <strong>reactivity system</strong>, cho phép việc cập nhật giao diện trở nên dễ dàng hơn.</p>
+</li>
+<li>
+<p><strong>Node.js</strong>: Node.js là môi trường chạy JavaScript trên máy chủ, cho phép phát triển ứng dụng web phía back-end với JavaScript. Node.js sử dụng cơ chế <strong>non-blocking I/O</strong>, giúp xử lý đồng thời nhiều yêu cầu mà không bị tắc nghẽn.</p>
+</li>
+</ul>
+<p>Các framework và thư viện này không chỉ giúp giảm bớt độ phức tạp của việc phát triển ứng dụng mà còn tối ưu hóa hiệu suất, giúp ứng dụng hoạt động mượt mà hơn.</p>
+<h4><strong>Hỗ Trợ Các Tính Năng Asynchronous và Xử Lý Sự Kiện</strong></h4>
+<p>Một trong những đặc điểm nổi bật của JavaScript là khả năng xử lý các tác vụ <strong>asynchronous</strong> (không đồng bộ) mà không làm tắc nghẽn giao diện người dùng. JavaScript sử dụng cơ chế <strong>Event Loop</strong> và <strong>Promises</strong> để quản lý các tác vụ bất đồng bộ, cho phép mã chạy mượt mà mà không bị gián đoạn.</p>
+<p>Ví dụ, khi người dùng gửi một yêu cầu đến server để lấy dữ liệu, JavaScript có thể tiếp tục thực thi các tác vụ khác mà không cần đợi phản hồi từ server. Khi phản hồi được trả về, một sự kiện sẽ được kích hoạt và dữ liệu sẽ được hiển thị trên giao diện người dùng mà không làm gián đoạn trải nghiệm của người dùng.</p>
+<p>Điều này là một yếu tố quan trọng giúp JavaScript có thể xây dựng các ứng dụng web mượt mà, không bị lag hoặc gián đoạn khi xử lý các yêu cầu phức tạp.</p>
+<hr>
+<h3><strong>3. JavaScript và Ứng Dụng trong Phát Triển Web</strong></h3>
+<p>JavaScript có vai trò vô cùng quan trọng trong phát triển web, giúp tạo ra các tính năng động và tương tác trên website. Dưới đây là một số ứng dụng phổ biến của JavaScript trong phát triển web:</p>
+<h4><strong>Tạo Giao Diện Người Dùng Động (UI)</strong></h4>
+<p>JavaScript là công cụ chính để tạo ra các giao diện người dùng động và tương tác. Các tính năng như thay đổi nội dung mà không làm tải lại trang, hiệu ứng chuyển động, hoặc các menu thả xuống đều được xây dựng với JavaScript. Điều này giúp website trở nên sinh động và hấp dẫn hơn, đồng thời tăng trải nghiệm người dùng.</p>
+<h4><strong>Xử Lý Sự Kiện và Tương Tác với Người Dùng</strong></h4>
+<p>JavaScript cho phép xử lý các sự kiện như <strong>click</strong>, <strong>hover</strong>, <strong>scroll</strong>, <strong>input</strong>, v.v. Khi người dùng thực hiện các hành động trên trang web, JavaScript sẽ phản hồi lại hành động đó và thực hiện các tác vụ nhất định, chẳng hạn như thay đổi giao diện, gửi yêu cầu đến máy chủ hoặc hiển thị thông báo.</p>
+<h4><strong>Tạo Các Ứng Dụng Một Trang (Single Page Applications - SPA)</strong></h4>
+<p>Với sự phát triển của các framework như <strong>React</strong>, <strong>Angular</strong> và <strong>Vue.js</strong>, JavaScript đã trở thành công cụ chính để xây dựng các ứng dụng một trang (SPA). Các ứng dụng này chỉ tải một lần duy nhất và sau đó thay đổi nội dung mà không cần tải lại toàn bộ trang, mang lại trải nghiệm người dùng mượt mà hơn.</p>
+<hr>
+<h3><strong>4. Lý Do Nên Học JavaScript</strong></h3>
+<p>JavaScript không chỉ là ngôn ngữ của web, mà còn là ngôn ngữ phổ biến nhất trong lập trình hiện nay. Dưới đây là một số lý do tại sao bạn nên học JavaScript:</p>
+<ul>
+<li><strong>Phát Triển Web</strong>: JavaScript là ngôn ngữ quan trọng không thể thiếu khi phát triển các ứng dụng web động và tương tác.</li>
+<li><strong>Cộng Đồng Lớn</strong>: JavaScript có một cộng đồng lập trình viên khổng lồ, với rất nhiều tài liệu học tập và sự hỗ trợ từ các chuyên gia.</li>
+<li><strong>Tính Linh Hoạt</strong>: JavaScript có thể sử dụng trong cả front-end và back-end, giúp bạn làm việc toàn diện với các dự án web.</li>
+<li><strong>Cơ Hội Nghề Nghiệp</strong>: Kiến thức về JavaScript giúp bạn mở rộng cơ hội nghề nghiệp, vì hầu hết các công ty công nghệ lớn đều yêu cầu kỹ năng JavaScript.</li>
+</ul>
+<hr>
+<h3><strong>Kết Luận</strong></h3>
+<p>JavaScript là ngôn ngữ lập trình không thể thiếu trong phát triển web hiện đại, giúp tạo ra các tính năng động, giao diện người dùng mượt mà và tương tác nhanh chóng. Với sự hỗ trợ của các framework mạnh mẽ và khả năng hoạt động cả phía front-end và back-end, JavaScript vẫn sẽ tiếp tục giữ vững vị thế của mình trong ngành công nghiệp phần mềm.</p>
+<p>Việc học và nắm vững JavaScript sẽ giúp bạn có thể xây dựng các ứng dụng web mạnh mẽ, mở rộng cơ hội nghề nghiệp và tham gia vào một cộng đồng lập trình viên phát triển không ngừng.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="mb-2 flex gap-3 empty:hidden -ml-2">
+<div class="items-center justify-start rounded-xl p-1 flex">
+<div class="flex items-center"><button class="rounded-lg text-token-text-secondary hover:bg-token-main-surface-secondary" aria-label="Read aloud" data-testid="voice-play-turn-action-button"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-md-heavy"><path fill-rule="evenodd" clip-rule="evenodd" d="M11 4.9099C11 4.47485 10.4828 4.24734 10.1621 4.54132L6.67572 7.7372C6.49129 7.90626 6.25019 8.00005 6 8.00005H4C3.44772 8.00005 3 8.44776 3 9.00005V15C3 15.5523 3.44772 16 4 16H6C6.25019 16 6.49129 16.0938 6.67572 16.2629L10.1621 19.4588C10.4828 19.7527 11 19.5252 11 19.0902V4.9099ZM8.81069 3.06701C10.4142 1.59714 13 2.73463 13 4.9099V19.0902C13 21.2655 10.4142 22.403 8.81069 20.9331L5.61102 18H4C2.34315 18 1 16.6569 1 15V9.00005C1 7.34319 2.34315 6.00005 4 6.00005H5.61102L8.81069 3.06701ZM20.3166 6.35665C20.8019 6.09313 21.409 6.27296 21.6725 6.75833C22.5191 8.3176 22.9996 10.1042 22.9996 12.0001C22.9996 13.8507 22.5418 15.5974 21.7323 17.1302C21.4744 17.6185 20.8695 17.8054 20.3811 17.5475C19.8927 17.2896 19.7059 16.6846 19.9638 16.1962C20.6249 14.9444 20.9996 13.5175 20.9996 12.0001C20.9996 10.4458 20.6064 8.98627 19.9149 7.71262C19.6514 7.22726 19.8312 6.62017 20.3166 6.35665ZM15.7994 7.90049C16.241 7.5688 16.8679 7.65789 17.1995 8.09947C18.0156 9.18593 18.4996 10.5379 18.4996 12.0001C18.4996 13.3127 18.1094 14.5372 17.4385 15.5604C17.1357 16.0222 16.5158 16.1511 16.0539 15.8483C15.5921 15.5455 15.4632 14.9255 15.766 14.4637C16.2298 13.7564 16.4996 12.9113 16.4996 12.0001C16.4996 10.9859 16.1653 10.0526 15.6004 9.30063C15.2687 8.85905 15.3578 8.23218 15.7994 7.90049Z" fill="currentColor"></path></svg></button><button class="rounded-lg text-token-text-secondary hover:bg-token-main-surface-secondary" aria-label="Sao chép" data-testid="copy-turn-action-button"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-md-heavy"><path fill-rule="evenodd" clip-rule="evenodd" d="M7 5C7 3.34315 8.34315 2 10 2H19C20.6569 2 22 3.34315 22 5V14C22 15.6569 20.6569 17 19 17H17V19C17 20.6569 15.6569 22 14 22H5C3.34315 22 2 20.6569 2 19V10C2 8.34315 3.34315 7 5 7H7V5ZM9 7H14C15.6569 7 17 8.34315 17 10V15H19C19.5523 15 20 14.5523 20 14V5C20 4.44772 19.5523 4 19 4H10C9.44772 4 9 4.44772 9 5V7ZM5 9C4.44772 9 4 9.44772 4 10V19C4 19.5523 4.44772 20 5 20H14C14.5523 20 15 19.5523 15 19V10C15 9.44772 14.5523 9 14 9H5Z" fill="currentColor"></path></svg></button>
+<div class="flex"> </div>
+<div class="flex items-center pb-0"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-md"><path d="M3.06957 10.8763C3.62331 6.43564 7.40967 3 12 3C14.2824 3 16.4028 3.85067 18.0118 5.25439V4C18.0118 3.44772 18.4595 3 19.0118 3C19.5641 3 20.0118 3.44772 20.0118 4V8C20.0118 8.55228 19.5641 9 19.0118 9H15C14.4477 9 14 8.55228 14 8C14 7.44772 14.4477 7 15 7H16.9571C15.6757 5.76379 13.9101 5 12 5C8.43108 5 5.48466 7.67174 5.0542 11.1237C4.98586 11.6718 4.48619 12.0607 3.93815 11.9923C3.39011 11.924 3.00123 11.4243 3.06957 10.8763ZM20.0618 12.0077C20.6099 12.076 20.9988 12.5757 20.9304 13.1237C20.3767 17.5644 16.5903 21 12 21C9.72322 21 7.60762 20.1535 5.99999 18.7559V20C5.99999 20.5523 5.55228 21 4.99999 21C4.44771 21 3.99999 20.5523 3.99999 20V16C3.99999 15.4477 4.44771 15 4.99999 15H8.99999C9.55228 15 9.99999 15.4477 9.99999 16C9.99999 16.5523 9.55228 17 8.99999 17H7.04285C8.32433 18.2362 10.0899 19 12 19C15.5689 19 18.5153 16.3283 18.9458 12.8763C19.0141 12.3282 19.5138 11.9393 20.0618 12.0077Z" fill="currentColor"></path></svg><span class="overflow-hidden text-clip whitespace-nowrap text-sm">4o mini</span></div>
+<span class="" data-state="closed"><button id="radix-:rju:" class="cursor-pointer h-[30px] rounded-md px-1 text-token-text-secondary hover:bg-token-main-surface-secondary" type="button" aria-haspopup="menu" aria-expanded="false" data-state="closed"></button></span></div>
+</div>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Java: Ngôn ngữ lập trình mạnh mẽ cho mọi ứng dụng</title>
+        <author>
+            <name>vandaivi</name>
+        </author>
+        <link href="https://github.com/vandaivi/blog.git/java-ngon-ngu-lap-trinh-manh-me-cho-moi-ung-dung.html"/>
+        <id>https://github.com/vandaivi/blog.git/java-ngon-ngu-lap-trinh-manh-me-cho-moi-ung-dung.html</id>
+        <media:content url="https://github.com/vandaivi/blog.git/media/posts/5/download-mien-phi-tai-lieu-lap-trinh-huong-doi-tuong-java-4.webp" medium="image" />
+
+        <updated>2024-12-29T14:16:55+07:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://github.com/vandaivi/blog.git/media/posts/5/download-mien-phi-tai-lieu-lap-trinh-huong-doi-tuong-java-4.webp" alt="" />
+                    Java: Ngôn ngữ lập trình mạnh mẽ cho mọi ứng dụng Java là một trong những ngôn ngữ lập trình&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://github.com/vandaivi/blog.git/media/posts/5/download-mien-phi-tai-lieu-lap-trinh-huong-doi-tuong-java-4.webp" class="type:primaryImage" alt="" /></p>
+                <h3><strong>Java: Ngôn ngữ lập trình mạnh mẽ cho mọi ứng dụng</strong></h3>
+<p><strong>Java</strong> là một trong những ngôn ngữ lập trình phổ biến nhất hiện nay. Được phát triển lần đầu tiên bởi Sun Microsystems vào những năm 1990, Java đã nhanh chóng trở thành công cụ mạnh mẽ trong việc xây dựng các ứng dụng từ phần mềm máy tính đến ứng dụng di động, và đặc biệt là các hệ thống lớn.</p>
+<h4><strong>Java là gì?</strong></h4>
+<p>Java là một ngôn ngữ lập trình hướng đối tượng, tức là nó tổ chức mã nguồn theo các đối tượng và lớp. Điểm mạnh lớn nhất của Java chính là tính tương thích cao và khả năng chạy trên mọi nền tảng mà không cần thay đổi mã nguồn, nhờ vào <strong>Java Virtual Machine (JVM)</strong>. Câu khẩu hiệu nổi tiếng của Java là: "Write Once, Run Anywhere" (Viết một lần, chạy mọi nơi).</p>
+<h4><strong>Các đặc điểm nổi bật của Java</strong></h4>
+<ul>
+<li><strong>Độc lập nền tảng</strong>: Java có thể chạy trên nhiều hệ điều hành khác nhau như Windows, Mac OS, Linux, v.v. mà không cần chỉnh sửa mã nguồn. Điều này là nhờ vào JVM, giúp biên dịch mã Java thành mã bytecode, có thể chạy trên bất kỳ hệ thống nào có JVM.</li>
+<li><strong>Hướng đối tượng</strong>: Java là ngôn ngữ hướng đối tượng, giúp tổ chức mã nguồn dễ dàng và tái sử dụng. Các khái niệm như kế thừa, đa hình và đóng gói giúp lập trình viên dễ dàng phát triển các ứng dụng phức tạp.</li>
+<li><strong>Bảo mật</strong>: Java được biết đến với tính năng bảo mật cao, giúp ngăn ngừa các mối đe dọa từ bên ngoài, đặc biệt là trong môi trường web.</li>
+<li><strong>Quản lý bộ nhớ tự động</strong>: Java sử dụng <strong>Garbage Collection</strong> để tự động quản lý bộ nhớ, giúp giảm thiểu rủi ro của việc rò rỉ bộ nhớ trong các ứng dụng.</li>
+</ul>
+<h4><strong>Ứng dụng của Java</strong></h4>
+<p>Java được sử dụng rộng rãi trong nhiều lĩnh vực khác nhau:</p>
+<ul>
+<li><strong>Phát triển phần mềm doanh nghiệp</strong>: Java Enterprise Edition (Java EE) được sử dụng để xây dựng các ứng dụng doanh nghiệp lớn, hệ thống quản lý cơ sở dữ liệu, v.v.</li>
+<li><strong>Ứng dụng di động</strong>: Java là nền tảng chính để phát triển ứng dụng Android.</li>
+<li><strong>Web và ứng dụng đám mây</strong>: Java cung cấp các framework mạnh mẽ như Spring và Hibernate để phát triển ứng dụng web, cũng như hỗ trợ xây dựng các hệ thống đám mây.</li>
+<li><strong>Hệ thống nhúng</strong>: Java cũng được sử dụng trong các thiết bị và hệ thống nhúng, từ các thiết bị IoT đến các ứng dụng trên các hệ thống nhỏ gọn.</li>
+</ul>
+<h3><strong>Java: Giới thiệu về ngôn ngữ lập trình này</strong></h3>
+<p><strong>Java</strong> là một trong những ngôn ngữ lập trình lâu đời và phổ biến nhất hiện nay, được phát triển bởi <strong>Sun Microsystems</strong> vào những năm 1990 và hiện tại là sản phẩm của <strong>Oracle Corporation</strong>. Với khả năng chạy trên nhiều nền tảng mà không cần thay đổi mã nguồn, Java đã chứng tỏ sự mạnh mẽ và tính ứng dụng cao trong mọi lĩnh vực, từ ứng dụng di động, phần mềm doanh nghiệp, đến các hệ thống web và hệ thống phân tán.</p>
+<p>Trong bài viết này, chúng ta sẽ tìm hiểu sâu về Java: từ lịch sử phát triển, những tính năng nổi bật, các ứng dụng thực tế, cho đến lý do tại sao Java vẫn giữ được vị trí quan trọng trong ngành công nghiệp phần mềm trong suốt nhiều thập kỷ qua.</p>
+<hr>
+<h3><strong>1. Java - Lịch Sử và Sự Ra Đời</strong></h3>
+<p>Java được phát triển lần đầu tiên bởi <strong>James Gosling</strong> và các cộng sự tại <strong>Sun Microsystems</strong> vào năm 1991 dưới tên mã ban đầu là <strong>Oak</strong>. Lý do Sun Microsystems phát triển Oak là để có thể lập trình các thiết bị di động và các thiết bị điện tử thông minh lúc bấy giờ, nhưng sau đó họ nhận thấy sự tiềm năng của nó trong phát triển phần mềm và quyết định thay đổi tên thành <strong>Java</strong> vào năm 1995.</p>
+<p>Điều làm nên sự khác biệt của Java so với các ngôn ngữ khác chính là khả năng <strong>"Write Once, Run Anywhere"</strong> (Viết một lần, chạy mọi nơi). Điều này có nghĩa là mã nguồn Java có thể chạy trên nhiều hệ điều hành mà không cần phải thay đổi mã nguồn, nhờ vào cơ chế <strong>Java Virtual Machine (JVM)</strong>. Đây là một trong những điểm mạnh nhất của Java, giúp nó trở thành ngôn ngữ lập trình lý tưởng cho các ứng dụng đa nền tảng.</p>
+<hr>
+<h3><strong>2. Các Đặc Điểm Nổi Bật Của Java</strong></h3>
+<p>Java có nhiều đặc điểm vượt trội, giúp ngôn ngữ này trở thành một trong những lựa chọn phổ biến trong cộng đồng lập trình viên. Các đặc điểm này không chỉ làm Java dễ sử dụng mà còn giúp nó trở nên mạnh mẽ và ổn định trong việc phát triển các ứng dụng lớn.</p>
+<h4><strong>Độc Lập Nền Tảng (Platform Independence)</strong></h4>
+<p>Một trong những yếu tố làm nên sự nổi bật của Java chính là tính năng <strong>"Write Once, Run Anywhere"</strong>. Khi một lập trình viên viết mã nguồn Java, mã này sẽ được biên dịch thành <strong>bytecode</strong>, thay vì mã máy (machine code) mà các ngôn ngữ như C hay C++ sử dụng. <strong>Bytecode</strong> này có thể được JVM (Java Virtual Machine) thực thi trên bất kỳ nền tảng nào, miễn là nền tảng đó có cài đặt JVM.</p>
+<p>Điều này có nghĩa là Java có thể chạy trên mọi hệ điều hành phổ biến như Windows, macOS, Linux, hoặc các hệ điều hành di động như Android mà không cần thay đổi mã nguồn, điều mà các ngôn ngữ khác như C hoặc C++ không thể làm được.</p>
+<h4><strong>Quản Lý Bộ Nhớ Tự Động với Garbage Collection</strong></h4>
+<p>Trong lập trình, việc quản lý bộ nhớ là một trong những vấn đề quan trọng và dễ gây ra lỗi. Các ngôn ngữ như C hay C++ yêu cầu lập trình viên phải tự quản lý bộ nhớ, dẫn đến khả năng gặp phải các lỗi như <strong>memory leaks</strong> (rò rỉ bộ nhớ) hoặc <strong>dangling pointers</strong> (con trỏ không hợp lệ). Java đã giải quyết vấn đề này bằng cách sử dụng <strong>Garbage Collection (GC)</strong>.</p>
+<p><strong>Garbage Collection</strong> là một cơ chế tự động trong Java, giúp phát hiện và thu hồi bộ nhớ mà các đối tượng không còn được tham chiếu nữa, giải phóng bộ nhớ mà không yêu cầu lập trình viên phải quản lý thủ công. Điều này không chỉ giảm thiểu nguy cơ rò rỉ bộ nhớ mà còn giúp Java trở thành một ngôn ngữ dễ dàng hơn để làm việc trong môi trường phát triển phần mềm.</p>
+<h4><strong>Bảo Mật Cao</strong></h4>
+<p>Java được thiết kế với tính bảo mật rất cao, điều này đặc biệt quan trọng khi phát triển các ứng dụng chạy trên internet hoặc các hệ thống nhúng. Một trong những tính năng bảo mật mạnh mẽ của Java là khả năng kiểm tra và hạn chế quyền truy cập của các ứng dụng vào hệ thống. Java sử dụng <strong>Java Security Manager</strong> và <strong>bytecode verifier</strong> để kiểm tra các đoạn mã có nguy hiểm hay không trước khi cho phép chúng thực thi.</p>
+<p>Java cũng hỗ trợ các API mã hóa như <strong>Java Cryptography Architecture (JCA)</strong> để bảo vệ dữ liệu khi truyền tải, cũng như <strong>Java Authentication and Authorization Service (JAAS)</strong> để kiểm soát quyền truy cập của người dùng vào tài nguyên hệ thống.</p>
+<h4><strong>Ngôn Ngữ Hướng Đối Tượng</strong></h4>
+<p>Java là một ngôn ngữ lập trình hướng đối tượng (OOP), có nghĩa là các chương trình Java chủ yếu được xây dựng từ các <strong>lớp</strong> và <strong>đối tượng</strong>. Lập trình hướng đối tượng giúp lập trình viên dễ dàng tổ chức mã nguồn, tăng tính tái sử dụng và bảo trì phần mềm. Các nguyên lý cơ bản của OOP trong Java bao gồm:</p>
+<ul>
+<li><strong>Encapsulation (Đóng gói)</strong>: Giúp bảo vệ dữ liệu và phương thức bên trong lớp, chỉ cho phép truy cập thông qua các phương thức công khai.</li>
+<li><strong>Inheritance (Kế thừa)</strong>: Cho phép một lớp con kế thừa các thuộc tính và phương thức của lớp cha, giúp tái sử dụng mã nguồn.</li>
+<li><strong>Polymorphism (Đa hình)</strong>: Cho phép các đối tượng của các lớp khác nhau sử dụng chung một giao diện, giúp tăng tính linh hoạt của phần mềm.</li>
+<li><strong>Abstraction (Trừu tượng)</strong>: Giúp che giấu các chi tiết cài đặt không cần thiết và chỉ cung cấp các tính năng cần thiết cho người dùng.</li>
+</ul>
+<hr>
+<h3><strong>3. Các Ứng Dụng Thực Tế của Java</strong></h3>
+<p>Java là một ngôn ngữ lập trình đa năng, được ứng dụng rộng rãi trong nhiều lĩnh vực khác nhau. Dưới đây là một số ứng dụng phổ biến của Java:</p>
+<h4><strong>Ứng Dụng Di Động (Android)</strong></h4>
+<p>Java đã là nền tảng chính để phát triển ứng dụng Android từ những ngày đầu, dù hiện nay <strong>Kotlin</strong> đã trở thành ngôn ngữ chính cho phát triển Android. Tuy nhiên, Java vẫn rất phổ biến trong cộng đồng lập trình viên Android và tiếp tục hỗ trợ Android SDK. Những ứng dụng di động nổi tiếng như <strong>Facebook</strong>, <strong>WhatsApp</strong>, và <strong>Instagram</strong> đều được xây dựng bằng Java.</p>
+<h4><strong>Ứng Dụng Web và Doanh Nghiệp</strong></h4>
+<p>Java là lựa chọn lý tưởng cho phát triển ứng dụng web và phần mềm doanh nghiệp nhờ vào các framework mạnh mẽ như <strong>Spring</strong>, <strong>Hibernate</strong>, và <strong>JSF</strong>. <strong>Java EE</strong> (Enterprise Edition) cung cấp các API và dịch vụ cần thiết để xây dựng các ứng dụng web quy mô lớn, như hệ thống ngân hàng, hệ thống quản lý khách hàng (CRM), và các ứng dụng quản lý chuỗi cung ứng.</p>
+<h4><strong>Hệ Thống Phân Tán và Big Data</strong></h4>
+<p>Java là lựa chọn phổ biến cho các hệ thống phân tán, nơi dữ liệu và xử lý được chia nhỏ và phân phối giữa các máy tính khác nhau. <strong>Apache Hadoop</strong> và <strong>Apache Kafka</strong>, các công nghệ Big Data, đều được phát triển chủ yếu bằng Java.</p>
+<h4><strong>Hệ Thống Nhúng và Internet of Things (IoT)</strong></h4>
+<p>Java ME (Micro Edition) là nền tảng lý tưởng cho các hệ thống nhúng và ứng dụng IoT. Các thiết bị như <strong>smart TVs</strong>, <strong>thiết bị y tế</strong>, và <strong>thiết bị gia đình thông minh</strong> đều có thể chạy ứng dụng được viết bằng Java.</p>
+<hr>
+<h3><strong>4. Tại Sao Nên Học Java?</strong></h3>
+<p>Java vẫn là một trong những ngôn ngữ lập trình phổ biến nhất và sẽ tiếp tục giữ vững vị thế này trong tương lai. Dưới đây là một số lý do tại sao bạn nên học Java:</p>
+<ul>
+<li><strong>Tính phổ biến</strong>: Java đứng đầu trong bảng xếp hạng các ngôn ngữ lập trình phổ biến nhất, với cộng đồng lập trình viên lớn mạnh và nhiều tài liệu học tập.</li>
+<li><strong>Cơ hội nghề nghiệp</strong>: Java là ngôn ngữ chủ yếu được sử dụng trong các công ty công nghệ lớn như <strong>Google</strong>, <strong>Amazon</strong>, <strong>Netflix</strong>, và <strong>LinkedIn</strong>. Kỹ năng Java mở ra nhiều cơ hội nghề nghiệp hấp dẫn.</li>
+<li><strong>Tính ứng dụng rộng rãi</strong>: Java không chỉ được sử dụng trong phát triển ứng dụng di động mà còn trong các ứng dụng web, doanh nghiệp, và hệ thống phân tán, giúp bạn phát triển các kỹ năng lập trình đa dạng.</li>
+<li><strong>Khả năng duy trì lâu dài</strong>: Java là một ngôn ngữ ổn định và đã được sử dụng trong ngành công nghiệp phần mềm trong suốt hơn hai thập kỷ, và sẽ còn tồn tại trong nhiều năm tới.</li>
+</ul>
+<hr>
+<h3><strong>Kết Luận</strong></h3>
+<p>Java là một ngôn ngữ lập trình mạnh mẽ, ổn định và linh hoạt, với khả năng chạy trên nhiều nền tảng mà không cần thay đổi mã nguồn. Các đặc điểm nổi bật như <strong>"Write Once, Run Anywhere"</strong>, <strong>quản lý bộ nhớ tự động</strong>, <strong>bảo mật cao</strong>, và <strong>hướng đối tượng</strong> giúp Java trở thành ngôn ngữ lý tưởng cho các lập trình viên và các doanh nghiệp. Dù là ứng dụng di động, phần mềm doanh nghiệp hay hệ thống phân tán, Java đều có thể đáp ứng nhu cầu phát triển phần mềm hiện đại.</p>
+<p>Với một cộng đồng người dùng rộng lớn và một hệ sinh thái phong phú, Java chắc chắn vẫn sẽ là một ngôn ngữ quan trọng trong ngành công nghiệp phần mềm, đồng thời mở ra vô số cơ hội nghề nghiệp cho các lập trình viên.</p>
+            ]]>
+        </content>
+    </entry>
+</feed>
