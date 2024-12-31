@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>Blog lập trình</title>
-    <link href="https://github.com/vandaivi/blog.git/feed.xml" rel="self" />
-    <link href="https://github.com/vandaivi/blog.git" />
+    <link href="https://github.com/vandaivi/blogcanhan/feed.xml" rel="self" />
+    <link href="https://github.com/vandaivi/blogcanhan" />
     <updated>2024-12-29T18:19:39+07:00</updated>
     <author>
         <name>vandaivi</name>
     </author>
-    <id>https://github.com/vandaivi/blog.git</id>
+    <id>https://github.com/vandaivi/blogcanhan</id>
 
     <entry>
         <title>Làm Thế Nào Để Học Java</title>
         <author>
             <name>vandaivi</name>
         </author>
-        <link href="https://github.com/vandaivi/blog.git/lam-the-nao-de-hoc-java.html"/>
-        <id>https://github.com/vandaivi/blog.git/lam-the-nao-de-hoc-java.html</id>
-        <media:content url="https://github.com/vandaivi/blog.git/media/posts/15/hoc-lap-trinh-java-core-danh-cho-nguoi-moi-bat-dau-2019.jpg" medium="image" />
+        <link href="https://github.com/vandaivi/blogcanhan/lam-the-nao-de-hoc-java.html"/>
+        <id>https://github.com/vandaivi/blogcanhan/lam-the-nao-de-hoc-java.html</id>
+        <media:content url="https://github.com/vandaivi/blogcanhan/media/posts/15/hoc-lap-trinh-java-core-danh-cho-nguoi-moi-bat-dau-2019.jpg" medium="image" />
 
         <updated>2024-12-29T18:19:39+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://github.com/vandaivi/blog.git/media/posts/15/hoc-lap-trinh-java-core-danh-cho-nguoi-moi-bat-dau-2019.jpg" alt="" />
+                        <img src="https://github.com/vandaivi/blogcanhan/media/posts/15/hoc-lap-trinh-java-core-danh-cho-nguoi-moi-bat-dau-2019.jpg" alt="" />
                     Java là một ngôn ngữ lý tưởng cho người mới bắt đầu học lập trình. Với cú pháp rõ ràng&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://github.com/vandaivi/blog.git/media/posts/15/hoc-lap-trinh-java-core-danh-cho-nguoi-moi-bat-dau-2019.jpg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://github.com/vandaivi/blogcanhan/media/posts/15/hoc-lap-trinh-java-core-danh-cho-nguoi-moi-bat-dau-2019.jpg" class="type:primaryImage" alt="" /></p>
                 <h3> </h3>
 <p>Java là một ngôn ngữ lý tưởng cho người mới bắt đầu học lập trình. Với cú pháp rõ ràng và khả năng chạy trên nhiều nền tảng khác nhau, Java mang đến một môi trường học tập ổn định và dễ tiếp cận. Để bắt đầu học Java, bạn có thể làm theo các bước sau:</p>
 <h4><strong>1. Cài đặt Java Development Kit (JDK)</strong></h4>
@@ -130,20 +130,20 @@
         <author>
             <name>vandaivi</name>
         </author>
-        <link href="https://github.com/vandaivi/blog.git/tim-hieu-ve-collections-trong-java.html"/>
-        <id>https://github.com/vandaivi/blog.git/tim-hieu-ve-collections-trong-java.html</id>
-        <media:content url="https://github.com/vandaivi/blog.git/media/posts/13/collection-trong-java.webp" medium="image" />
+        <link href="https://github.com/vandaivi/blogcanhan/tim-hieu-ve-collections-trong-java.html"/>
+        <id>https://github.com/vandaivi/blogcanhan/tim-hieu-ve-collections-trong-java.html</id>
+        <media:content url="https://github.com/vandaivi/blogcanhan/media/posts/13/collection-trong-java.webp" medium="image" />
 
         <updated>2024-12-29T18:02:16+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://github.com/vandaivi/blog.git/media/posts/13/collection-trong-java.webp" alt="" />
+                        <img src="https://github.com/vandaivi/blogcanhan/media/posts/13/collection-trong-java.webp" alt="" />
                     Giới thiệu về Collections Framework Java Collections Framework là một phần quan trọng trong Java, giúp lập trình viên làm&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://github.com/vandaivi/blog.git/media/posts/13/collection-trong-java.webp" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://github.com/vandaivi/blogcanhan/media/posts/13/collection-trong-java.webp" class="type:primaryImage" alt="" /></p>
                 <div class="flex max-w-full flex-col flex-grow">
 <div class="min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&amp;]:mt-5" dir="auto" data-message-author-role="assistant" data-message-id="07107985-9487-4407-a14d-ac8ae0ab5bed" data-message-model-slug="gpt-4o">
 <div class="flex w-full flex-col gap-1 empty:hidden first:pt-[3px]">
@@ -258,20 +258,20 @@
         <author>
             <name>vandaivi</name>
         </author>
-        <link href="https://github.com/vandaivi/blog.git/tim-hieu-ve-framework-spring-trong-java.html"/>
-        <id>https://github.com/vandaivi/blog.git/tim-hieu-ve-framework-spring-trong-java.html</id>
-        <media:content url="https://github.com/vandaivi/blog.git/media/posts/12/R1.jpg" medium="image" />
+        <link href="https://github.com/vandaivi/blogcanhan/tim-hieu-ve-framework-spring-trong-java.html"/>
+        <id>https://github.com/vandaivi/blogcanhan/tim-hieu-ve-framework-spring-trong-java.html</id>
+        <media:content url="https://github.com/vandaivi/blogcanhan/media/posts/12/R1.jpg" medium="image" />
 
         <updated>2024-12-29T15:16:10+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://github.com/vandaivi/blog.git/media/posts/12/R1.jpg" alt="" />
+                        <img src="https://github.com/vandaivi/blogcanhan/media/posts/12/R1.jpg" alt="" />
                     Tìm hiểu về framework Spring trong Java Spring Framework là một framework mạnh mẽ và phổ biến trong cộng đồng&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://github.com/vandaivi/blog.git/media/posts/12/R1.jpg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://github.com/vandaivi/blogcanhan/media/posts/12/R1.jpg" class="type:primaryImage" alt="" /></p>
                 <h3><strong>Tìm hiểu về framework Spring trong Java</strong></h3>
 <p><strong>Spring Framework</strong> là một framework mạnh mẽ và phổ biến trong cộng đồng phát triển Java. Được ra đời vào đầu những năm 2000, Spring đã giúp đơn giản hóa rất nhiều công việc trong phát triển ứng dụng Java, từ việc quản lý các lớp đến bảo mật và phát triển các ứng dụng web. Spring đặc biệt mạnh mẽ trong việc xây dựng các ứng dụng doanh nghiệp quy mô lớn, và nó cung cấp một bộ công cụ đa dạng giúp giảm thiểu sự phức tạp trong việc phát triển ứng dụng.</p>
 <p>Spring có thể được chia thành nhiều module khác nhau, nhưng ba module chính, nổi bật và được sử dụng rộng rãi nhất là:</p>
@@ -435,20 +435,20 @@
         <author>
             <name>vandaivi</name>
         </author>
-        <link href="https://github.com/vandaivi/blog.git/lam-viec-voi-dom-trong-javascript.html"/>
-        <id>https://github.com/vandaivi/blog.git/lam-viec-voi-dom-trong-javascript.html</id>
-        <media:content url="https://github.com/vandaivi/blog.git/media/posts/11/637821746425690452_dom-in-js.jpg" medium="image" />
+        <link href="https://github.com/vandaivi/blogcanhan/lam-viec-voi-dom-trong-javascript.html"/>
+        <id>https://github.com/vandaivi/blogcanhan/lam-viec-voi-dom-trong-javascript.html</id>
+        <media:content url="https://github.com/vandaivi/blogcanhan/media/posts/11/637821746425690452_dom-in-js.jpg" medium="image" />
 
         <updated>2024-12-29T15:13:54+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://github.com/vandaivi/blog.git/media/posts/11/637821746425690452_dom-in-js.jpg" alt="" />
+                        <img src="https://github.com/vandaivi/blogcanhan/media/posts/11/637821746425690452_dom-in-js.jpg" alt="" />
                     Làm việc với DOM trong JavaScript DOM (Document Object Model) là một giao diện lập trình ứng dụng (API) cho&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://github.com/vandaivi/blog.git/media/posts/11/637821746425690452_dom-in-js.jpg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://github.com/vandaivi/blogcanhan/media/posts/11/637821746425690452_dom-in-js.jpg" class="type:primaryImage" alt="" /></p>
                 <h3><strong>Làm việc với DOM trong JavaScript</strong></h3>
 <p><strong>DOM (Document Object Model)</strong> là một giao diện lập trình ứng dụng (API) cho phép JavaScript tương tác với các phần tử trong trang web. Khi trang web được tải vào trình duyệt, DOM tạo ra một cấu trúc cây để đại diện cho các phần tử HTML. JavaScript có thể sử dụng DOM để thay đổi nội dung, cấu trúc, và kiểu dáng của trang web mà không cần tải lại trang.</p>
 <p>DOM cho phép bạn thực hiện các thao tác như:</p>
@@ -542,20 +542,20 @@ button.<span class="hljs-title function_">addEventListener</span>(<span class="h
         <author>
             <name>vandaivi</name>
         </author>
-        <link href="https://github.com/vandaivi/blog.git/lap-trinh-huong-doi-tuong-trong-java-oop.html"/>
-        <id>https://github.com/vandaivi/blog.git/lap-trinh-huong-doi-tuong-trong-java-oop.html</id>
-        <media:content url="https://github.com/vandaivi/blog.git/media/posts/10/oop.png" medium="image" />
+        <link href="https://github.com/vandaivi/blogcanhan/lap-trinh-huong-doi-tuong-trong-java-oop.html"/>
+        <id>https://github.com/vandaivi/blogcanhan/lap-trinh-huong-doi-tuong-trong-java-oop.html</id>
+        <media:content url="https://github.com/vandaivi/blogcanhan/media/posts/10/oop.png" medium="image" />
 
         <updated>2024-12-29T15:11:57+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://github.com/vandaivi/blog.git/media/posts/10/oop.png" alt="" />
+                        <img src="https://github.com/vandaivi/blogcanhan/media/posts/10/oop.png" alt="" />
                     Lập Trình Hướng Đối Tượng trong Java (OOP) Lập trình hướng đối tượng (Object-Oriented Programming - OOP) là một phương&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://github.com/vandaivi/blog.git/media/posts/10/oop.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://github.com/vandaivi/blogcanhan/media/posts/10/oop.png" class="type:primaryImage" alt="" /></p>
                 <h3><strong>Lập Trình Hướng Đối Tượng trong Java (OOP)</strong></h3>
 <p>Lập trình hướng đối tượng (Object-Oriented Programming - OOP) là một phương pháp lập trình sử dụng đối tượng và các lớp để tổ chức dữ liệu và các phương thức trong một chương trình. Trong Java, lập trình hướng đối tượng được hỗ trợ đầy đủ và là một trong những yếu tố quan trọng giúp Java trở thành một ngôn ngữ mạnh mẽ, dễ bảo trì và mở rộng. Dưới đây là ba nguyên tắc cơ bản của lập trình hướng đối tượng mà bạn cần nắm vững:</p>
 <h4><strong>1. Kế Thừa (Inheritance)</strong></h4>
@@ -733,20 +733,20 @@ button.<span class="hljs-title function_">addEventListener</span>(<span class="h
         <author>
             <name>vandaivi</name>
         </author>
-        <link href="https://github.com/vandaivi/blog.git/cac-khai-niem-co-ban-trong-javascript-2.html"/>
-        <id>https://github.com/vandaivi/blog.git/cac-khai-niem-co-ban-trong-javascript-2.html</id>
-        <media:content url="https://github.com/vandaivi/blog.git/media/posts/9/javascript-concept.jpeg" medium="image" />
+        <link href="https://github.com/vandaivi/blogcanhan/cac-khai-niem-co-ban-trong-javascript-2.html"/>
+        <id>https://github.com/vandaivi/blogcanhan/cac-khai-niem-co-ban-trong-javascript-2.html</id>
+        <media:content url="https://github.com/vandaivi/blogcanhan/media/posts/9/javascript-concept.jpeg" medium="image" />
 
         <updated>2024-12-29T15:08:09+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://github.com/vandaivi/blog.git/media/posts/9/javascript-concept.jpeg" alt="" />
+                        <img src="https://github.com/vandaivi/blogcanhan/media/posts/9/javascript-concept.jpeg" alt="" />
                     Các Khái Niệm Cơ Bản trong JavaScript JavaScript là một ngôn ngữ lập trình động mạnh mẽ, được sử dụng&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://github.com/vandaivi/blog.git/media/posts/9/javascript-concept.jpeg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://github.com/vandaivi/blogcanhan/media/posts/9/javascript-concept.jpeg" class="type:primaryImage" alt="" /></p>
                 <h3><strong>Các Khái Niệm Cơ Bản trong JavaScript</strong></h3>
 <p>JavaScript là một ngôn ngữ lập trình động mạnh mẽ, được sử dụng chủ yếu để xây dựng các ứng dụng web tương tác. Khi bắt đầu học JavaScript, bạn sẽ cần nắm vững các khái niệm cơ bản sau đây để có thể sử dụng ngôn ngữ này một cách hiệu quả:</p>
 <h4><strong>1. Biến (Variables)</strong></h4>
@@ -922,20 +922,20 @@ person.<span class="hljs-title function_">greet</span>();  <span class="hljs-com
         <author>
             <name>vandaivi</name>
         </author>
-        <link href="https://github.com/vandaivi/blog.git/so-sanh-java-va-javascript-su-khac-biet-quan-trong.html"/>
-        <id>https://github.com/vandaivi/blog.git/so-sanh-java-va-javascript-su-khac-biet-quan-trong.html</id>
-        <media:content url="https://github.com/vandaivi/blog.git/media/posts/7/su-khac-nhau-giua-java-va-javascript-20220301154436-588758.jpg" medium="image" />
+        <link href="https://github.com/vandaivi/blogcanhan/so-sanh-java-va-javascript-su-khac-biet-quan-trong.html"/>
+        <id>https://github.com/vandaivi/blogcanhan/so-sanh-java-va-javascript-su-khac-biet-quan-trong.html</id>
+        <media:content url="https://github.com/vandaivi/blogcanhan/media/posts/7/su-khac-nhau-giua-java-va-javascript-20220301154436-588758.jpg" medium="image" />
 
         <updated>2024-12-29T15:00:30+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://github.com/vandaivi/blog.git/media/posts/7/su-khac-nhau-giua-java-va-javascript-20220301154436-588758.jpg" alt="" />
+                        <img src="https://github.com/vandaivi/blogcanhan/media/posts/7/su-khac-nhau-giua-java-va-javascript-20220301154436-588758.jpg" alt="" />
                     Java và JavaScript đều là hai ngôn ngữ lập trình phổ biến, nhưng mặc dù tên gọi của chúng khá&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://github.com/vandaivi/blog.git/media/posts/7/su-khac-nhau-giua-java-va-javascript-20220301154436-588758.jpg" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://github.com/vandaivi/blogcanhan/media/posts/7/su-khac-nhau-giua-java-va-javascript-20220301154436-588758.jpg" class="type:primaryImage" alt="" /></p>
                 <p><strong>Java</strong> và <strong>JavaScript</strong> đều là hai ngôn ngữ lập trình phổ biến, nhưng mặc dù tên gọi của chúng khá giống nhau, thực tế chúng có rất nhiều sự khác biệt. Mặc dù cả hai ngôn ngữ này đều có vai trò quan trọng trong lập trình, chúng phục vụ cho các mục đích khác nhau và có những đặc điểm riêng biệt. Dưới đây là sự so sánh chi tiết giữa Java và JavaScript.</p>
 <hr>
 <h3><strong>1. Khác biệt về mục đích sử dụng</strong></h3>
@@ -1017,20 +1017,20 @@ person.<span class="hljs-title function_">greet</span>();  <span class="hljs-com
         <author>
             <name>vandaivi</name>
         </author>
-        <link href="https://github.com/vandaivi/blog.git/javascript-ngon-ngu-cua-web.html"/>
-        <id>https://github.com/vandaivi/blog.git/javascript-ngon-ngu-cua-web.html</id>
-        <media:content url="https://github.com/vandaivi/blog.git/media/posts/6/R.png" medium="image" />
+        <link href="https://github.com/vandaivi/blogcanhan/javascript-ngon-ngu-cua-web.html"/>
+        <id>https://github.com/vandaivi/blogcanhan/javascript-ngon-ngu-cua-web.html</id>
+        <media:content url="https://github.com/vandaivi/blogcanhan/media/posts/6/R.png" medium="image" />
 
         <updated>2024-12-29T14:49:19+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://github.com/vandaivi/blog.git/media/posts/6/R.png" alt="" />
+                        <img src="https://github.com/vandaivi/blogcanhan/media/posts/6/R.png" alt="" />
                     1. JavaScript - Ngôn Ngữ của Web JavaScript được Brendan Eich phát triển vào năm 1995 khi ông làm việc&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://github.com/vandaivi/blog.git/media/posts/6/R.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://github.com/vandaivi/blogcanhan/media/posts/6/R.png" class="type:primaryImage" alt="" /></p>
                 <div class="flex max-w-full flex-col flex-grow">
 <div class="min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&amp;]:mt-5" dir="auto" data-message-author-role="assistant" data-message-id="a629159e-c4ef-4b2c-b643-3d46df1fd9ba" data-message-model-slug="gpt-4o-mini">
 <div class="flex w-full flex-col gap-1 empty:hidden first:pt-[3px]">
@@ -1110,20 +1110,20 @@ person.<span class="hljs-title function_">greet</span>();  <span class="hljs-com
         <author>
             <name>vandaivi</name>
         </author>
-        <link href="https://github.com/vandaivi/blog.git/java-ngon-ngu-lap-trinh-manh-me-cho-moi-ung-dung.html"/>
-        <id>https://github.com/vandaivi/blog.git/java-ngon-ngu-lap-trinh-manh-me-cho-moi-ung-dung.html</id>
-        <media:content url="https://github.com/vandaivi/blog.git/media/posts/5/download-mien-phi-tai-lieu-lap-trinh-huong-doi-tuong-java-4.webp" medium="image" />
+        <link href="https://github.com/vandaivi/blogcanhan/java-ngon-ngu-lap-trinh-manh-me-cho-moi-ung-dung.html"/>
+        <id>https://github.com/vandaivi/blogcanhan/java-ngon-ngu-lap-trinh-manh-me-cho-moi-ung-dung.html</id>
+        <media:content url="https://github.com/vandaivi/blogcanhan/media/posts/5/download-mien-phi-tai-lieu-lap-trinh-huong-doi-tuong-java-4.webp" medium="image" />
 
         <updated>2024-12-29T14:16:55+07:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://github.com/vandaivi/blog.git/media/posts/5/download-mien-phi-tai-lieu-lap-trinh-huong-doi-tuong-java-4.webp" alt="" />
+                        <img src="https://github.com/vandaivi/blogcanhan/media/posts/5/download-mien-phi-tai-lieu-lap-trinh-huong-doi-tuong-java-4.webp" alt="" />
                     Java: Ngôn ngữ lập trình mạnh mẽ cho mọi ứng dụng Java là một trong những ngôn ngữ lập trình&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://github.com/vandaivi/blog.git/media/posts/5/download-mien-phi-tai-lieu-lap-trinh-huong-doi-tuong-java-4.webp" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://github.com/vandaivi/blogcanhan/media/posts/5/download-mien-phi-tai-lieu-lap-trinh-huong-doi-tuong-java-4.webp" class="type:primaryImage" alt="" /></p>
                 <h3><strong>Java: Ngôn ngữ lập trình mạnh mẽ cho mọi ứng dụng</strong></h3>
 <p><strong>Java</strong> là một trong những ngôn ngữ lập trình phổ biến nhất hiện nay. Được phát triển lần đầu tiên bởi Sun Microsystems vào những năm 1990, Java đã nhanh chóng trở thành công cụ mạnh mẽ trong việc xây dựng các ứng dụng từ phần mềm máy tính đến ứng dụng di động, và đặc biệt là các hệ thống lớn.</p>
 <h4><strong>Java là gì?</strong></h4>
