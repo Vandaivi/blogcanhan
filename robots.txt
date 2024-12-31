@@ -1,3 +1,2 @@
 User-agent: *
 Disallow:
-Sitemap: https://github.com/vandaivi/github.io/sitemap.xml
